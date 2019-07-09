@@ -7,7 +7,11 @@ public class TreeNode {
     public TreeNode left;
     public TreeNode right;
     public int value;
+    TreeNode(){
+
+    }
     TreeNode(int x){
         this.value=x;
     }
+
 }
