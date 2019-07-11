@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10543055-3536-441f-ae05-fac568893091" name="Default" comment="更新了一堆算法题">
+    <list default="true" id="10543055-3536-441f-ae05-fac568893091" name="Default" comment="堆排序复习">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SwordToOffer/test/CoinResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/CoinResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/HeapSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../tmall_ssm (1)/target/" />
@@ -29,28 +28,79 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/suibianxiexie/Stringgg.java">
+        <entry file="file://$PROJECT_DIR$/src/test/最长回文子串.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/HeapSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            <state relative-caret-position="171">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+              <folding>
+                <element signature="e#739#740#0" expanded="true" />
+                <element signature="e#775#776#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/常见排序算法/HeapSort.java">
+        <entry file="file://$PROJECT_DIR$/src/dynamicprogramming/LongestCommonString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="46" column="26" selection-start-line="44" selection-start-column="12" selection-end-line="46" selection-end-column="26" />
+            <state relative-caret-position="133">
+              <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/HeapSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/designModal/责任链模式/ProcessingObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="58" lean-forward="true" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+              <folding>
+                <element signature="e#287#288#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/designModal/责任链模式/RunProcess.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/designModal/责任链模式/BusyProcess.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+              <folding>
+                <element signature="e#244#245#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/designModal/责任链模式/FreeProcess.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+              <folding>
+                <element signature="e#244#245#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,11 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/跳台阶/JumpFloor.java" />
-        <option value="$PROJECT_DIR$/src/跳台阶/JumpFloorII.java" />
-        <option value="$PROJECT_DIR$/src/递归和循环/RectCover.java" />
-        <option value="$PROJECT_DIR$/src/位运算/NumberOf1.java" />
-        <option value="$PROJECT_DIR$/src/代码的完整性/Power.java" />
         <option value="$PROJECT_DIR$/src/代码的完整性/ReOrderArray.java" />
         <option value="$PROJECT_DIR$/src/test/CoinResult.java" />
         <option value="$PROJECT_DIR$/src/贝壳面经算法题/Qudongxi.java" />
@@ -143,7 +188,12 @@
         <option value="$PROJECT_DIR$/src/dynamicprogramming/LongestCommonString.java" />
         <option value="$PROJECT_DIR$/src/常见排序算法/HeapSort.java" />
         <option value="$PROJECT_DIR$/src/suibianxiexie/Stringgg.java" />
+        <option value="$PROJECT_DIR$/src/test/最长回文子串.java" />
         <option value="$PROJECT_DIR$/src/test/HeapSort.java" />
+        <option value="$PROJECT_DIR$/src/designModal/责任链模式/BusyProcess.java" />
+        <option value="$PROJECT_DIR$/src/designModal/责任链模式/FreeProcess.java" />
+        <option value="$PROJECT_DIR$/src/designModal/责任链模式/RunProcess.java" />
+        <option value="$PROJECT_DIR$/src/designModal/责任链模式/ProcessingObject.java" />
       </list>
     </option>
   </component>
@@ -179,6 +229,19 @@
               <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
               <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="designModal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="designModal" type="462c0819:PsiDirectoryNode" />
+              <item name="责任链模式" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
@@ -257,7 +320,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562756810364" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562813176249" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/live-dubbo-master" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -278,7 +341,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HeapSort (1)">
+  <component name="RunManager" selected="Application.RunProcess">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -312,6 +375,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="最长回文子串" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.最长回文子串" />
+      <module name="SwordToOffer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HeapSort (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.HeapSort" />
       <module name="SwordToOffer" />
@@ -340,27 +417,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestCommonString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.LongestCommonString" />
+    <configuration name="RunProcess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designModal.责任链模式.RunProcess" />
       <module name="SwordToOffer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dynamicprogramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestIncreasingPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.LongestIncreasingPath" />
-      <module name="SwordToOffer" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dynamicprogramming.*" />
+          <option name="PATTERN" value="designModal.责任链模式.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -446,19 +509,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LongestIncreasingPath" />
-      <item itemvalue="Application.LongestCommonString" />
       <item itemvalue="Application.HeapSort" />
       <item itemvalue="Application.Stringgg" />
       <item itemvalue="Application.HeapSort (1)" />
+      <item itemvalue="Application.最长回文子串" />
+      <item itemvalue="Application.RunProcess" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RunProcess" />
+        <item itemvalue="Application.最长回文子串" />
         <item itemvalue="Application.HeapSort (1)" />
         <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.Stringgg" />
-        <item itemvalue="Application.LongestCommonString" />
-        <item itemvalue="Application.LongestIncreasingPath" />
       </list>
     </recent_temporary>
   </component>
@@ -490,7 +553,7 @@
       <workItem from="1562633201907" duration="14998000" />
       <workItem from="1562719586031" duration="3076000" />
       <workItem from="1562748666367" duration="4293000" />
-      <workItem from="1562804212508" duration="617000" />
+      <workItem from="1562804212508" duration="7635000" />
     </task>
     <task id="LOCAL-00001" summary="更新了一堆算法题">
       <created>1562661662649</created>
@@ -499,11 +562,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562661662649</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="堆排序复习">
+      <created>1562804880157</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1562804880157</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99479000" />
+    <option name="totallyTimeSpent" value="106497000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -520,7 +590,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4968017" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -528,7 +598,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50319827" side_tool="true" weight="0.3997833" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -550,7 +620,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新了一堆算法题" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新了一堆算法题" />
+    <MESSAGE value="堆排序复习" />
+    <option name="LAST_COMMIT_MESSAGE" value="堆排序复习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -577,44 +648,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/秋招2019拼多多算法题/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/树/FindPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lianbiao/Clone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/树/Symmetrical.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/位运算/NumberOf1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/树/Bianli.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -823,16 +856,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/suibianxiexie/Xiecheng.java" />
-    <entry file="file://$PROJECT_DIR$/src/suibianxiexie/CASinABA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/suibianxiexie/A.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -895,13 +918,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dynamicprogramming/LongestIncreasingPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/头条算法/N维数组转1维数组.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -919,13 +935,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dynamicprogramming/LongestCommonString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="48" lean-forward="true" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/suibianxiexie/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -934,13 +943,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/CoinResult.java" />
-    <entry file="file://$PROJECT_DIR$/src/常见排序算法/HeapSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="46" column="26" selection-start-line="44" selection-start-column="12" selection-end-line="46" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/suibianxiexie/Stream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -951,6 +953,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/suibianxiexie/CASinABA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/常见排序算法/HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="46" column="26" selection-start-line="44" selection-start-column="12" selection-end-line="46" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/suibianxiexie/Stringgg.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -958,10 +977,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamicprogramming/LongestIncreasingPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/最长回文子串.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamicprogramming/LongestCommonString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        <state relative-caret-position="190">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designModal/责任链模式/FreeProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding>
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designModal/责任链模式/BusyProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding>
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designModal/责任链模式/RunProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designModal/责任链模式/ProcessingObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="58" lean-forward="true" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+          <folding>
+            <element signature="e#287#288#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

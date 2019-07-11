@@ -7,12 +7,18 @@ import java.util.Arrays;
  * @date 2019/7/10 17:06
  */
 public class HeapSort {
+    /**
+     * 大顶堆的建立,堆排序复杂度为N(nlogn)
+     * @param arr
+     * @param parentIndex
+     * @param length
+     */
     public static void maxAdjust(int[] arr,int parentIndex,int length){
         int temp=arr[parentIndex];
         int childrenIndex=parentIndex*2+1;
         while (childrenIndex<length){
             if(childrenIndex+1<length&&arr[childrenIndex+1]>arr[childrenIndex]){
-                ++childrenIndex;
+                childrenIndex++;
             }
             if(temp>=arr[childrenIndex]){
                 break;
@@ -23,25 +29,26 @@ public class HeapSort {
         }
         arr[parentIndex]=temp;
     }
-    
+
+    /**
+     * 对大顶堆进行排序
+     * @param arr
+     */
     public static void maxHeapSort(int[] arr){
-        //生成堆,只要取一半就可以,因为调整过程中会有*2+1的操作
         for(int i=(arr.length-2)/2;i>=0;i--){
-            maxAdjust(arr,i,arr.length);
+            maxAdjust(arr,i, arr.length);
         }
         System.out.println(Arrays.toString(arr));
-        //把第一个元素放到最后,然后每次缩短数组长度,调整
         for(int i=arr.length-1;i>=0;i--){
-            //大的放到最后,不需要进行堆调整了
-            int temp = arr[i];
-            arr[i] = arr[0];
-            arr[0] = temp;
+            int temp=arr[0];
+            arr[0]=arr[i];
+            arr[i]=temp;
             maxAdjust(arr,0,i);
         }
         System.out.println(Arrays.toString(arr));
     }
     public static void main(String[] args){
-        int[] arr = {22, 31,  45, 17, 65,78, 53, 9, 32};
+        int[] arr = {22, 31,  45, 17, 65,78, 53};
         maxHeapSort(arr);
     }
 }
