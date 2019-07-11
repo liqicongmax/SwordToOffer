@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10543055-3536-441f-ae05-fac568893091" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="10543055-3536-441f-ae05-fac568893091" name="Default" comment="更新了一堆算法题">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SwordToOffer/树/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SwordToOffer/树/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/树/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SwordToOffer/test/CoinResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/CoinResult.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../tmall_ssm (1)/target/" />
@@ -32,20 +31,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/suibianxiexie/Stringgg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/suibianxiexie/Stream.java">
+        <entry file="file://$PROJECT_DIR$/src/test/HeapSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="532">
+              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/常见排序算法/HeapSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="874">
+              <caret line="46" column="26" selection-start-line="44" selection-start-column="12" selection-end-line="46" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -88,7 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/数组/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/跳台阶/JumpFloor.java" />
         <option value="$PROJECT_DIR$/src/跳台阶/JumpFloorII.java" />
         <option value="$PROJECT_DIR$/src/递归和循环/RectCover.java" />
@@ -139,6 +143,7 @@
         <option value="$PROJECT_DIR$/src/dynamicprogramming/LongestCommonString.java" />
         <option value="$PROJECT_DIR$/src/常见排序算法/HeapSort.java" />
         <option value="$PROJECT_DIR$/src/suibianxiexie/Stringgg.java" />
+        <option value="$PROJECT_DIR$/src/test/HeapSort.java" />
       </list>
     </option>
   </component>
@@ -191,6 +196,12 @@
               <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
               <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="代码的完整性" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -204,6 +215,12 @@
               <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="头条算法" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="常见排序算法" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
@@ -233,19 +250,19 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562661594854" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tmall_ssm (1)/pom.xml" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562756810364" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/live-dubbo-master" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
@@ -261,7 +278,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Stringgg">
+  <component name="RunManager" selected="Application.HeapSort (1)">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -291,6 +308,20 @@
     </configuration>
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeapSort (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.HeapSort" />
+      <module name="SwordToOffer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -330,20 +361,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dynamicprogramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Niuke203658" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="数组.Niuke203658" />
-      <module name="SwordToOffer" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="数组.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -429,19 +446,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Niuke203658" />
       <item itemvalue="Application.LongestIncreasingPath" />
       <item itemvalue="Application.LongestCommonString" />
       <item itemvalue="Application.HeapSort" />
       <item itemvalue="Application.Stringgg" />
+      <item itemvalue="Application.HeapSort (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Stringgg" />
+        <item itemvalue="Application.HeapSort (1)" />
         <item itemvalue="Application.HeapSort" />
+        <item itemvalue="Application.Stringgg" />
         <item itemvalue="Application.LongestCommonString" />
         <item itemvalue="Application.LongestIncreasingPath" />
-        <item itemvalue="Application.Niuke203658" />
       </list>
     </recent_temporary>
   </component>
@@ -470,18 +487,29 @@
       <workItem from="1562307510235" duration="5075000" />
       <workItem from="1562545703270" duration="8435000" />
       <workItem from="1562583057626" duration="1183000" />
-      <workItem from="1562633201907" duration="14300000" />
+      <workItem from="1562633201907" duration="14998000" />
+      <workItem from="1562719586031" duration="3076000" />
+      <workItem from="1562748666367" duration="4293000" />
+      <workItem from="1562804212508" duration="617000" />
     </task>
+    <task id="LOCAL-00001" summary="更新了一堆算法题">
+      <created>1562661662649</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562661662649</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90795000" />
+    <option name="totallyTimeSpent" value="99479000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2153518" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2217484" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -497,10 +525,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50319827" side_tool="true" weight="0.3997833" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -519,6 +547,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更新了一堆算法题" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新了一堆算法题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -545,27 +577,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/时间效率/GetLeastNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/树/BinaryTreeTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/秋招2019拼多多算法题/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -660,13 +671,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/JDK8u144x64_ths/jdk/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="304" lean-forward="true" selection-start-line="304" selection-end-line="304" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/JDK8u144x64_ths/jdk/jre/lib/rt.jar!/sun/misc/Unsafe.class" />
     <entry file="jar://C:/JDK8u144x64_ths/jdk/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
@@ -808,24 +813,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/JDK8u144x64_ths/jdk/jre/lib/rt.jar!/sun/nio/ch/Interruptible.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/JDK8u144x64_ths/jdk/jre/lib/rt.jar!/java/nio/channels/spi/AbstractInterruptibleChannel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="42" column="37" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#2624#0" expanded="true" />
-            <element signature="e#1879#1880#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/JDK8u144x64_ths/jdk/jre/lib/rt.jar!/sun/nio/ch/Interruptible.class" />
+    <entry file="jar://C:/JDK8u144x64_ths/jdk/jre/lib/rt.jar!/java/nio/channels/spi/AbstractInterruptibleChannel.class" />
     <entry file="file://$PROJECT_DIR$/src/树/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -944,27 +933,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/CoinResult.java" />
     <entry file="file://$PROJECT_DIR$/src/常见排序算法/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="58" column="19" lean-forward="true" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/suibianxiexie/Stringgg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+        <state relative-caret-position="874">
+          <caret line="46" column="26" selection-start-line="44" selection-start-column="12" selection-end-line="46" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/suibianxiexie/Stream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
+        <state relative-caret-position="209">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/suibianxiexie/Stringgg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
         </state>
       </provider>
     </entry>
