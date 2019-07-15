@@ -12,7 +12,7 @@ import java.util.Stack;
 public class 数组求指定数和 {
     /**
      * 给定一个int数组A，数组中元素互不重复，给定一个数x，求所有求和能得到x的数字组合，组合中的元素来自A，可重复使用。
-     *给一棵二叉树以及数字n，判断是否存在二叉树的路径和为n
+     *
      * @param arr 数组,元素不重复
      * @param target 求和值
      * @return
