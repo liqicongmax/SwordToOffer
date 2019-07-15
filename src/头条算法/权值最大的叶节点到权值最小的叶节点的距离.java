@@ -6,7 +6,7 @@ import 树.TreeNode;
  * @author liqicong@myhexin.com
  * @date 2019/7/15 13:15
  */
-public class 权值最大的叶节点到权值最小的页节点的距离 {
+public class 权值最大的叶节点到权值最小的叶节点的距离 {
     /**
      * todo
      * 有一棵二叉树，树上每个点标有权值，权值各不相同.
