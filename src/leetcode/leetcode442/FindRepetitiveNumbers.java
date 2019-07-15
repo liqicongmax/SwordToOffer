@@ -13,11 +13,11 @@ public class FindRepetitiveNumbers {
      * 给定一个整数数组 a，其中1 ≤ a[i] ≤ n （n为数组长度）, 其中有些元素出现两次而其他元素出现一次
      * 找到所有出现两次的元素。
      * 不用到任何额外空间并在O(n)时间复杂度
-     * 解法:用元素来当索引,把遍历过程中遇到的都取相反数,如果有相同的,就会获取到这个相反数,取绝对值后放到list
-     * @param arr
-     * @return
+     * 解法:用数组中元素来当索引,把遍历过程中遇到的都取相反数,如果有相同的,就会获取到这个相反数,取绝对值后放到list
+     * @param arr s
+     * @return s
      */
-    public static List<Integer> findRepetitiveNumbers(int[] arr){
+    private static List<Integer> findRepetitiveNumbers(int[] arr){
         List<Integer> result=new ArrayList<>();
         if(arr.length==0){
             return result;

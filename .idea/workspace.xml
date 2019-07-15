@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10543055-3536-441f-ae05-fac568893091" name="Default" comment="头条算法,寻找二叉树路径和">
+    <list default="true" id="10543055-3536-441f-ae05-fac568893091" name="Default" comment="leetcode442找到数组中重复的数">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/leetcode442/FindRepetitiveNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode442/FindRepetitiveNumbers.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../tmall_ssm (1)/target/" />
@@ -25,15 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dynamicprogramming/LongestIncreasingPath.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dynamicprogramming/MaxSequence.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -89,11 +81,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode442/FindRepetitiveNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            <state relative-caret-position="323">
+              <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode448/FindDisappearedNumbers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -181,7 +185,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/树/HasSubtree.java" />
         <option value="$PROJECT_DIR$/src/树/TreeMirror.java" />
         <option value="$PROJECT_DIR$/src/矩阵/PrintMatrix.java" />
         <option value="$PROJECT_DIR$/src/队列和栈/DefineStack.java" />
@@ -232,6 +235,7 @@
         <option value="$PROJECT_DIR$/src/头条算法/数组求指定数和.java" />
         <option value="$PROJECT_DIR$/src/头条算法/寻找二叉树路径.java" />
         <option value="$PROJECT_DIR$/src/leetcode/leetcode442/FindRepetitiveNumbers.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/leetcode448/FindDisappearedNumbers.java" />
       </list>
     </option>
   </component>
@@ -293,13 +297,6 @@
               <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode442" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
@@ -371,7 +368,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563158605754" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563161489046" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/live-dubbo-master" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -608,7 +605,7 @@
       <workItem from="1562814407262" duration="4302000" />
       <workItem from="1562922196546" duration="1934000" />
       <workItem from="1562984801668" duration="4726000" />
-      <workItem from="1563148810017" duration="8959000" />
+      <workItem from="1563148810017" duration="11609000" />
     </task>
     <task id="LOCAL-00001" summary="更新了一堆算法题">
       <created>1562661662649</created>
@@ -673,11 +670,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563156732987</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="leetcode442找到数组中重复的数">
+      <created>1563158992922</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1563158992922</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126549000" />
+    <option name="totallyTimeSpent" value="129199000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -731,7 +735,8 @@
     <MESSAGE value="动态规划,挖金矿问题,待完成" />
     <MESSAGE value="头条一面,数组求指定数的和" />
     <MESSAGE value="头条算法,寻找二叉树路径和" />
-    <option name="LAST_COMMIT_MESSAGE" value="头条算法,寻找二叉树路径和" />
+    <MESSAGE value="leetcode442找到数组中重复的数" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode442找到数组中重复的数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -758,20 +763,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/面试题/ThreadSafeCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/JDK8u144x64_ths/jdk/src.zip!/java/util/stream/Stream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-144">
@@ -1148,8 +1139,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode442/FindRepetitiveNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        <state relative-caret-position="323">
+          <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode448/FindDisappearedNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
