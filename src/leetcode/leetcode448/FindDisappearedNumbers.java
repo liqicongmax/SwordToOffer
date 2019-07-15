@@ -22,8 +22,8 @@ public class FindDisappearedNumbers {
             return list;
         }
         for(int i=0;i<arr.length;i++){
-            arr[Math.abs(arr[i])-1]=-1*Math.abs(arr[Math.abs(arr[i])-1]);
-
+            int index=Math.abs(arr[i])-1;
+            arr[index]=-1*Math.abs(arr[index]);
         }
         for(int i=0;i<arr.length;i++){
             if(arr[i]>0){
