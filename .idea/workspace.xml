@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10543055-3536-441f-ae05-fac568893091" name="Default" comment="生产者消费者模型">
+    <list default="true" id="10543055-3536-441f-ae05-fac568893091" name="Default" comment="动态规划:股票最大收益(一次买卖/2次买卖/无限次买卖)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamicprogramming/MaxSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamicprogramming/MaxSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/头条算法/字符串转码.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/头条算法/字符串转码.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/头条算法/股票买进卖出求利润最大.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/头条算法/股票买进卖出求利润最大.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/数组/Find.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数组/Find.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/矩阵/PrintMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/矩阵/PrintMatrix.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../tmall_ssm (1)/target/" />
@@ -44,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/数组/Find.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+            <state relative-caret-position="513">
+              <caret line="74" column="33" lean-forward="true" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -62,14 +65,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/头条算法/股票买进卖出求利润最大.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="361">
+              <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/矩阵/PrintMatrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -86,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/头条算法/字符串转码.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state relative-caret-position="247">
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -150,6 +162,7 @@
       <find>right</find>
       <find>sort</find>
       <find>isinterrupted</find>
+      <find>todo</find>
     </findStrings>
     <replaceStrings>
       <replace>node</replace>
@@ -165,7 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/lianbiao/Convert.java" />
         <option value="$PROJECT_DIR$/src/时间效率/GetLeastNumbers.java" />
         <option value="$PROJECT_DIR$/src/秋招2019拼多多算法题/BigNumMultip.java" />
         <option value="$PROJECT_DIR$/src/队列和栈/StackAndQueue.java" />
@@ -208,14 +220,15 @@
         <option value="$PROJECT_DIR$/src/leetcode/leetcode442/FindRepetitiveNumbers.java" />
         <option value="$PROJECT_DIR$/src/头条算法/权值最大的叶节点到权值最小的页节点的距离.java" />
         <option value="$PROJECT_DIR$/src/leetcode/leetcode448/FindDisappearedNumbers.java" />
-        <option value="$PROJECT_DIR$/src/头条算法/字符串转码.java" />
         <option value="$PROJECT_DIR$/src/leetcode/leetcode41/FirstMissingPositiveNum.java" />
         <option value="$PROJECT_DIR$/src/常见排序算法/SelectSort.java" />
-        <option value="$PROJECT_DIR$/src/数组/Find.java" />
         <option value="$PROJECT_DIR$/src/suibianxiexie/Interrupted.java" />
         <option value="$PROJECT_DIR$/src/suibianxiexie/ProviderAndConsumer.java" />
         <option value="$PROJECT_DIR$/src/dynamicprogramming/MaxSequence.java" />
         <option value="$PROJECT_DIR$/src/头条算法/股票买进卖出求利润最大.java" />
+        <option value="$PROJECT_DIR$/src/矩阵/PrintMatrix.java" />
+        <option value="$PROJECT_DIR$/src/头条算法/字符串转码.java" />
+        <option value="$PROJECT_DIR$/src/数组/Find.java" />
       </list>
     </option>
   </component>
@@ -355,7 +368,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563257346234" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563258935238" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/live-dubbo-master" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -376,7 +389,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.股票买进卖出求利润最大">
+  <component name="RunManager" selected="Application.Find">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -552,10 +565,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Find" />
         <item itemvalue="Application.股票买进卖出求利润最大" />
         <item itemvalue="Application.ProviderAndConsumer" />
         <item itemvalue="Application.Interrupted" />
-        <item itemvalue="Application.Find" />
         <item itemvalue="Application.SelectSort" />
       </list>
     </recent_temporary>
@@ -595,7 +608,7 @@
       <workItem from="1563148810017" duration="21572000" />
       <workItem from="1563177289210" duration="1566000" />
       <workItem from="1563182384408" duration="3735000" />
-      <workItem from="1563235932158" duration="13552000" />
+      <workItem from="1563235932158" duration="14296000" />
     </task>
     <task id="LOCAL-00001" summary="更新了一堆算法题">
       <created>1562661662649</created>
@@ -702,11 +715,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563255438012</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="动态规划:股票最大收益(一次买卖/2次买卖/无限次买卖)">
+      <created>1563258020809</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1563258020809</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158015000" />
+    <option name="totallyTimeSpent" value="158759000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -766,7 +786,8 @@
     <MESSAGE value="二维数组找数据" />
     <MESSAGE value="二维数组找数据需求简单算法" />
     <MESSAGE value="生产者消费者模型" />
-    <option name="LAST_COMMIT_MESSAGE" value="生产者消费者模型" />
+    <MESSAGE value="动态规划:股票最大收益(一次买卖/2次买卖/无限次买卖)" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态规划:股票最大收益(一次买卖/2次买卖/无限次买卖)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -779,25 +800,11 @@
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/数组/Find.java</url>
-          <line>15</line>
-          <properties class="数组.Find" method="find">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/数组/Niuke203658.java</url>
           <line>42</line>
           <properties />
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/数组/Find.java</url>
-          <line>48</line>
-          <properties />
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -992,13 +999,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/矩阵/PrintMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/头条算法/权值最大的叶节点到权值最小的叶节点的距离.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1129,13 +1129,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/数组/Find.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode91/NumDecodings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -1194,13 +1187,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/头条算法/字符串转码.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dynamicprogramming/MaxSequence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -1210,11 +1196,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/头条算法/股票买进卖出求利润最大.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="361">
+          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/矩阵/PrintMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/头条算法/字符串转码.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/数组/Find.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="74" column="33" lean-forward="true" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
         </state>
       </provider>
     </entry>

@@ -47,9 +47,31 @@ public class Find {
 
        return flag;
     }
+    public static boolean find1(int target,int[][] arr){
+        if(arr.length==0||arr[0].length==0){
+            return false;
+        }
+        int row=arr.length;
+        int col=arr[0].length;
+        for(int i=row-1,j=0;i>=0&&j<col;){
+            if(target==arr[i][j]){
+                return true;
+            }
+            if(target<arr[i][j]){
+                i--;
+                continue;
+            }
+            if(target>arr[i][j]){
+                j++;
+                continue;
+            }
+        }
+        return false;
+    }
     public static void main(String[] args) {
-        int[][] arr={{1,2,8,9},{2,4,9,12},{4,7,10,13},{6,8,11,15}};
-//        int[][] arr={{1,2,8,9},{4,7,10,13}};
-        System.out.println(find(15,arr));
+//        int[][] arr={{1,2,8,9},{2,4,9,12},{4,7,10,13},{6,8,11,15}};
+        int[][] arr={{1,2,8,9},{4,7,10,13}};
+//        System.out.println(find(15,arr));
+        System.out.println(find1(7,arr));
     }
 }
