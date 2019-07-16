@@ -16,11 +16,11 @@ public class HeapSort {
     public static void maxAdjust(int[] arr,int parentIndex,int length){
         int temp=arr[parentIndex];
         int childrenIndex=parentIndex*2+1;
-        while (childrenIndex<length){
-            if(childrenIndex+1<length&&arr[childrenIndex+1]>arr[childrenIndex]){
+        while(childrenIndex<length){
+            if(childrenIndex+1<length&&arr[childrenIndex]<arr[childrenIndex+1]){
                 childrenIndex++;
             }
-            if(temp>=arr[childrenIndex]){
+            if(temp>arr[childrenIndex]){
                 break;
             }
             arr[parentIndex]=arr[childrenIndex];
@@ -36,9 +36,8 @@ public class HeapSort {
      */
     public static void maxHeapSort(int[] arr){
         for(int i=(arr.length-2)/2;i>=0;i--){
-            maxAdjust(arr,i, arr.length);
+            maxAdjust(arr,i,arr.length);
         }
-        System.out.println(Arrays.toString(arr));
         for(int i=arr.length-1;i>=0;i--){
             int temp=arr[0];
             arr[0]=arr[i];
