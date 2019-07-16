@@ -11,21 +11,21 @@ public class MaxSequence {
      * @param arr
      * @return
      */
-    public static int maxSequence1(int[] arr) {
+    public static int maxSequence(int[] arr) {
         int max = arr[0];
+        int sum=0;
         for(int i=0;i<arr.length;i++){
-            int sum=0;
-            for(int j=i;j<arr.length;j++){
-                sum+=arr[j];
-                if(sum>max){
-                    max=sum;
-                }
+            if(sum>0){
+                sum+=arr[i];
+            }else {
+                sum=arr[i];
             }
+            max=Math.max(max,sum);
         }
         return max;
     }
     public static void main(String[] args){
         int[] arr={1,3,-2,4,-5};
-        System.out.println(maxSequence1(arr));
+        System.out.println(maxSequence(arr));
     }
 }
