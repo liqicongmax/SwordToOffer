@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10543055-3536-441f-ae05-fac568893091" name="Default" comment="更新了二维数组中查找的简单写法">
+    <list default="true" id="10543055-3536-441f-ae05-fac568893091" name="Default" comment="剑指offer：难度中等：数字在排序数组中出现的次数">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SwordToOffer/META-INF/SwordToOffer.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SwordToOffer/lianbiao/Convert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SwordToOffer/lianbiao/FindKthToTail.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SwordToOffer/lianbiao/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SwordToOffer/lianbiao/Merge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SwordToOffer/lianbiao/PrintListFromTailToHead.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SwordToOffer/lianbiao/ReverseList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/常见排序算法/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/常见排序算法/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/数组/GetNumberOfK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数组/GetNumberOfK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/时间效率/NumberOf1Between.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/时间效率/NumberOf1Between.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/链表/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/suibianxiexie/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/suibianxiexie/A.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../tmall_ssm (1)/target/" />
@@ -36,11 +26,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/数组/GetNumberOfK.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
-              <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
+            <state relative-caret-position="225">
+              <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/数组/LastRemaining.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1153#1154#0" expanded="true" />
+                <element signature="e#1189#1190#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,13 +106,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/树/Bianli.java" />
         <option value="$PROJECT_DIR$/src/suibianxiexie/DeadLock.java" />
         <option value="$PROJECT_DIR$/src/面试题/ThreadSafeCache.java" />
         <option value="$PROJECT_DIR$/src/suibianxiexie/CASinABA.java" />
         <option value="$PROJECT_DIR$/src/suibianxiexie/Stream.java" />
         <option value="$PROJECT_DIR$/src/树/TreeNode.java" />
-        <option value="$PROJECT_DIR$/src/suibianxiexie/A.java" />
         <option value="$PROJECT_DIR$/src/suibianxiexie/SingleModel.java" />
         <option value="$PROJECT_DIR$/src/头条算法/数字环.java" />
         <option value="$PROJECT_DIR$/src/位运算/Add.java" />
@@ -153,6 +155,8 @@
         <option value="$PROJECT_DIR$/src/practice/FindCircle.java" />
         <option value="$PROJECT_DIR$/src/常见排序算法/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/数组/GetNumberOfK.java" />
+        <option value="$PROJECT_DIR$/src/suibianxiexie/A.java" />
+        <option value="$PROJECT_DIR$/src/数组/LastRemaining.java" />
       </list>
     </option>
   </component>
@@ -298,7 +302,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563453528498" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563456577634" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/live-dubbo-master" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -319,7 +323,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GetNumberOfK">
+  <component name="RunManager" selected="Application.LastRemaining">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -353,13 +357,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="常见排序算法.BinarySearch" />
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="suibianxiexie.A" />
       <module name="SwordToOffer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="常见排序算法.*" />
+          <option name="PATTERN" value="suibianxiexie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -367,13 +371,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetLeastNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="数组.GetLeastNumbers" />
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="常见排序算法.BinarySearch" />
       <module name="SwordToOffer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="数组.*" />
+          <option name="PATTERN" value="常见排序算法.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -395,13 +399,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.HeapSort" />
+    <configuration name="LastRemaining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="数组.LastRemaining" />
       <module name="SwordToOffer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="数组.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -487,19 +491,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GetLeastNumbers" />
       <item itemvalue="Application.NumberOf1Between" />
-      <item itemvalue="Application.HeapSort" />
       <item itemvalue="Application.GetNumberOfK" />
       <item itemvalue="Application.BinarySearch" />
+      <item itemvalue="Application.A" />
+      <item itemvalue="Application.LastRemaining" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LastRemaining" />
+        <item itemvalue="Application.A" />
         <item itemvalue="Application.GetNumberOfK" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.NumberOf1Between" />
-        <item itemvalue="Application.HeapSort" />
-        <item itemvalue="Application.GetLeastNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -659,11 +663,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563258985407</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="剑指offer：难度中等：数字在排序数组中出现的次数">
+      <created>1563453614676</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1563453614676</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174886000" />
+    <option name="totallyTimeSpent" value="177897000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -725,7 +736,8 @@
     <MESSAGE value="生产者消费者模型" />
     <MESSAGE value="动态规划:股票最大收益(一次买卖/2次买卖/无限次买卖)" />
     <MESSAGE value="更新了二维数组中查找的简单写法" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新了二维数组中查找的简单写法" />
+    <MESSAGE value="剑指offer：难度中等：数字在排序数组中出现的次数" />
+    <option name="LAST_COMMIT_MESSAGE" value="剑指offer：难度中等：数字在排序数组中出现的次数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -754,6 +766,14 @@
           </properties>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/数组/LastRemaining.java</url>
+          <line>24</line>
+          <properties class="数组.LastRemaining" method="lastRemaining">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/数组/Niuke203658.java</url>
           <line>42</line>
@@ -772,6 +792,12 @@
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/数组/LastRemaining.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -780,20 +806,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/suibianxiexie/Stringgg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/最长回文子串.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/跳台阶/JumpFloor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1148,8 +1160,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/数组/GetNumberOfK.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
+        <state relative-caret-position="225">
+          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/suibianxiexie/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/数组/LastRemaining.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1153#1154#0" expanded="true" />
+            <element signature="e#1189#1190#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
