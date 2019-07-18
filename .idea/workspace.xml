@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10543055-3536-441f-ae05-fac568893091" name="Default" comment="头条算法:&#10;    复原ip地址,K个有序数组找中位数">
+    <list default="true" id="10543055-3536-441f-ae05-fac568893091" name="Default" comment="剑指offer:难度容易:两条链表的第一个公共点">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lianbiao/Clone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/Clone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lianbiao/Convert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/Convert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lianbiao/FindKthToTail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/FindKthToTail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lianbiao/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lianbiao/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/Merge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lianbiao/PrintListFromTailToHead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/PrintListFromTailToHead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lianbiao/RandomListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/RandomListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lianbiao/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/ReverseList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../tmall_ssm (1)/target/" />
@@ -45,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/链表/FindEntryOfLoop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state relative-caret-position="285">
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -322,7 +314,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563434263176" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563436995104" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/live-dubbo-master" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -564,7 +556,7 @@
       <workItem from="1563182384408" duration="3735000" />
       <workItem from="1563235932158" duration="28290000" />
       <workItem from="1563322633363" duration="20972000" />
-      <workItem from="1563410340102" duration="17277000" />
+      <workItem from="1563410340102" duration="19227000" />
     </task>
     <task id="LOCAL-00001" summary="更新了一堆算法题">
       <created>1562661662649</created>
@@ -713,11 +705,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563361439840</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="剑指offer:难度容易:两条链表的第一个公共点">
+      <created>1563434623945</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1563434623945</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211002000" />
+    <option name="totallyTimeSpent" value="212952000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -782,7 +781,8 @@
     <MESSAGE value="增加了几个剑指offer上面的数组优化算法" />
     <MESSAGE value="二分查找" />
     <MESSAGE value="头条算法:&#10;    复原ip地址,K个有序数组找中位数" />
-    <option name="LAST_COMMIT_MESSAGE" value="头条算法:&#10;    复原ip地址,K个有序数组找中位数" />
+    <MESSAGE value="剑指offer:难度容易:两条链表的第一个公共点" />
+    <option name="LAST_COMMIT_MESSAGE" value="剑指offer:难度容易:两条链表的第一个公共点" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1246,8 +1246,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/链表/FindEntryOfLoop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state relative-caret-position="285">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
         </state>
       </provider>
     </entry>
