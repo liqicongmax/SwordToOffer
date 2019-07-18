@@ -1,4 +1,4 @@
-package lianbiao;
+package 链表;
 
 /**
  * @author liqicong@myhexin.com

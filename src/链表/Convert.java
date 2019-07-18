@@ -1,4 +1,4 @@
-package lianbiao;
+package 链表;
 
 import 树.TreeNode;
 
