@@ -38,7 +38,7 @@ public class NumberOf1Between {
      * @return
      */
     public static int numberOf1Between1And(int n){
-        if(n==0){
+        if(n<1){
             return 0;
         }
         int count=0;
@@ -48,13 +48,12 @@ public class NumberOf1Between {
             int weight=round%10;
             round/=10;
             count+=round*base;
-            if(weight>1){
+            if(weight==1){
+                count+=(round%base)+1;
+            }else if(weight>1){
                 count+=base;
-            }else if(weight==1){
-                count+=(n%base)+1;
             }
             base*=10;
-
         }
         return count;
     }

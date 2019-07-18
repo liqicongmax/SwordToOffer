@@ -9,37 +9,39 @@ import java.util.Arrays;
 public class QuickSort {
     /**
      * 找到数组中第K个大的数
+     *
      * @param arr
      * @param start
      * @param end
      * @return
      */
-    public static int partition(int[] arr,int start,int end){
-        int temp=arr[start];
-        while(start<end){
-            while(start<end&&arr[end]>temp){
+    public static int partition(int[] arr, int start, int end) {
+        int temp = arr[start];
+        while (start < end) {
+            while (start < end && arr[end] > temp) {
                 end--;
             }
-            arr[start]=arr[end];
-            while(start<end&&arr[start]<temp){
+            arr[start] = arr[end];
+            while (start < end &&arr[start]<temp){
                 start++;
             }
             arr[end]=arr[start];
         }
         arr[start]=temp;
-        //System.out.println(Arrays.toString(arr));
         return start;
     }
-    public static void quickSort(int[] arr,int start,int end){
+
+    public static void quickSort(int[] arr, int start, int end) {
         if(start<end){
-            int partition=partition(arr,start,end);
+            int partition=partition(arr,start,arr.length-1);
             quickSort(arr,start,partition-1);
             quickSort(arr,partition+1,end);
         }
     }
-    public static void main(String[] args){
-        int[] arr={2,7,1,6,5,3};
-        quickSort(arr,0,arr.length-1);
+
+    public static void main(String[] args) {
+        int[] arr = {2, 7, 1, 6, 5, 3};
+        quickSort(arr, 0, arr.length - 1);
         System.out.println(Arrays.toString(arr));
     }
 }
