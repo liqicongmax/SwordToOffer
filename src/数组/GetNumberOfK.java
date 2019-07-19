@@ -10,7 +10,6 @@ public class GetNumberOfK {
      * @param arr 排序数组
      * @param k 给定数字k
      * @return 出现次数
-     * TODO 再写3题算法看视频
      */
     public static int getNumberOfK(int[] arr,int k){
         int place=binarySearch(arr,k);

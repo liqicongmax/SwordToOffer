@@ -1,6 +1,8 @@
 package suibianxiexie;
 
 import java.util.concurrent.locks.AbstractQueuedSynchronizer;
+import java.util.concurrent.locks.ReadWriteLock;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @author liqicong@myhexin.com
@@ -15,5 +17,7 @@ public class AQS {
                 return super.tryAcquire(arg);
             }
         };
+
+
     }
 }
