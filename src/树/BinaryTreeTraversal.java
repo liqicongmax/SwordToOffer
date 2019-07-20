@@ -9,7 +9,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * 二叉树的广度优先遍历，递归版
+ * 二叉树的广度优先遍历，非递归版
  */
 public class BinaryTreeTraversal {
     public ArrayList<Integer> solution(TreeNode root){

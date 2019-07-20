@@ -20,11 +20,23 @@ public class Convert {
         }
         Stack<TreeNode> stack=new Stack<>();
         TreeNode node=root;
+        TreeNode start=null;
         while(!stack.isEmpty()||node!=null){
-            while(node!=null){
+            if(node!=null){
                 stack.push(node);
-                node=node.left;
+                node=node.right;
+            }else {
+                node=stack.pop();
+                if(start==null){
+                    start=node;
+                }else{
+                    start.left=node;
+                    node.right=start;
+                    start=node;
+                }
             }
+            node=node.left;
         }
+        return start;
     }
 }
