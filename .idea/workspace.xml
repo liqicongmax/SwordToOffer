@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10543055-3536-441f-ae05-fac568893091" name="Default" comment="剑指offer：难度中等：小朋友出列问题">
+    <list default="true" id="10543055-3536-441f-ae05-fac568893091" name="Default" comment="剑指offer：难度中等：排序二叉树转双向链表">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/树/BinaryTreeTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/BinaryTreeTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/树/Convert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/树/Convert.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../tmall_ssm (1)/target/" />
@@ -27,11 +25,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/树/Convert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+            <state relative-caret-position="436">
+              <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/数组/PrintMinNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="31" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -93,7 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/suibianxiexie/CASinABA.java" />
         <option value="$PROJECT_DIR$/src/suibianxiexie/Stream.java" />
         <option value="$PROJECT_DIR$/src/树/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/suibianxiexie/SingleModel.java" />
@@ -144,6 +150,7 @@
         <option value="$PROJECT_DIR$/src/数组/LastRemaining.java" />
         <option value="$PROJECT_DIR$/src/树/BinaryTreeTraversal.java" />
         <option value="$PROJECT_DIR$/src/树/Convert.java" />
+        <option value="$PROJECT_DIR$/src/数组/PrintMinNumber.java" />
       </list>
     </option>
   </component>
@@ -289,7 +296,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563608518888" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563611213505" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/live-dubbo-master" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -657,11 +664,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563453614676</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="剑指offer：难度中等：排序二叉树转双向链表">
+      <created>1563608549760</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1563608549761</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179339000" />
+    <option name="totallyTimeSpent" value="180400000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -724,7 +738,8 @@
     <MESSAGE value="动态规划:股票最大收益(一次买卖/2次买卖/无限次买卖)" />
     <MESSAGE value="更新了二维数组中查找的简单写法" />
     <MESSAGE value="剑指offer：难度中等：数字在排序数组中出现的次数" />
-    <option name="LAST_COMMIT_MESSAGE" value="剑指offer：难度中等：数字在排序数组中出现的次数" />
+    <MESSAGE value="剑指offer：难度中等：排序二叉树转双向链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="剑指offer：难度中等：排序二叉树转双向链表" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -793,7 +808,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/util/Stack.java" />
     <entry file="file://$PROJECT_DIR$/src/树/HasSubtree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1160,8 +1174,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/树/Convert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+        <state relative-caret-position="436">
+          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/数组/PrintMinNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="31" selection-end-column="22" />
         </state>
       </provider>
     </entry>
