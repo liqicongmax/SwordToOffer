@@ -14,7 +14,7 @@ public class PrintMinNumber {
      * @param numbers
      * @return
      */
-    public String PrintMinNumber(int [] numbers) {
+    public String printMinNumber(int [] numbers) {
         String result="";
         for(int i=0;i<numbers.length-1;i++){
             for(int j=i+1;j<numbers.length;j++){
