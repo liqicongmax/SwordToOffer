@@ -1,4 +1,4 @@
-package 树;
+package Tree;
 
 /**
  * @author liqicong@myhexin.com

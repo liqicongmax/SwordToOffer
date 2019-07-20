@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10543055-3536-441f-ae05-fac568893091" name="Default" comment="剑指offer：难度中等：把数组排成最小的数">
+    <list default="true" id="10543055-3536-441f-ae05-fac568893091" name="Default" comment="剑指offer：难度简单：字符串转整数，侧重边界处理(暂时不做)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/BreadthFirstTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/BreadthFirstTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/FindCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/FindCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/头条算法/寻找二叉树路径.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/头条算法/寻找二叉树路径.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/头条算法/权值最大的叶节点到权值最小的叶节点的距离.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/头条算法/权值最大的叶节点到权值最小的叶节点的距离.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/Bianli.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Bianli.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/BinaryTreeTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/BinaryTreeTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/BreadthFirstTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/BreadthFirstTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/Convert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Convert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/FindPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/FindPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/HasSubtree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/HasSubtree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/InOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/InOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/ReConstructBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/ReConstructBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/Symmetrical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Symmetrical.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/TreeCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/TreeCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/TreeMirror.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/TreeMirror.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/树/VerifySquenceOfBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/VerifySquenceOfBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/链表/Convert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/Convert.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../tmall_ssm (1)/target/" />
@@ -26,10 +44,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/树/Convert.java">
+        <entry file="file://$PROJECT_DIR$/src/Tree/Convert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            <state relative-caret-position="23">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tree/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -38,25 +65,40 @@
         <entry file="file://$PROJECT_DIR$/src/数组/PrintMinNumber.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/字符串/StrToInt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/树/InOrderTraversal.java">
+        <entry file="file://$PROJECT_DIR$/src/字符串/StrToInt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+            <state relative-caret-position="138">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tree/PrintFromTopToBottom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/数组/FindContinuousSequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,10 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/树/TreeNode.java" />
-        <option value="$PROJECT_DIR$/src/suibianxiexie/SingleModel.java" />
-        <option value="$PROJECT_DIR$/src/头条算法/数字环.java" />
-        <option value="$PROJECT_DIR$/src/位运算/Add.java" />
         <option value="$PROJECT_DIR$/src/代码的完整性/Multiply.java" />
         <option value="$PROJECT_DIR$/src/suibianxiexie/Demo.java" />
         <option value="$PROJECT_DIR$/src/suibianxiexie/Xiecheng.java" />
@@ -157,9 +195,13 @@
         <option value="$PROJECT_DIR$/src/suibianxiexie/A.java" />
         <option value="$PROJECT_DIR$/src/数组/LastRemaining.java" />
         <option value="$PROJECT_DIR$/src/树/BinaryTreeTraversal.java" />
-        <option value="$PROJECT_DIR$/src/树/Convert.java" />
         <option value="$PROJECT_DIR$/src/数组/PrintMinNumber.java" />
         <option value="$PROJECT_DIR$/src/字符串/StrToInt.java" />
+        <option value="$PROJECT_DIR$/src/树/InOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/树/PrintFromTopToBottom.java" />
+        <option value="$PROJECT_DIR$/src/树/Convert.java" />
+        <option value="$PROJECT_DIR$/src/Tree/Convert.java" />
+        <option value="$PROJECT_DIR$/src/数组/FindContinuousSequence.java" />
       </list>
     </option>
   </component>
@@ -186,7 +228,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,12 +317,6 @@
               <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
               <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="树" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="矩阵" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -306,12 +341,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563612908324" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563618306348" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/live-dubbo-master" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -332,7 +368,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LastRemaining">
+  <component name="RunManager" selected="Application.FindContinuousSequence">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -394,6 +430,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FindContinuousSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="数组.FindContinuousSequence" />
+      <module name="SwordToOffer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="数组.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GetNumberOfK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="数组.GetNumberOfK" />
       <module name="SwordToOffer" />
@@ -415,20 +465,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="数组.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumberOf1Between" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="时间效率.NumberOf1Between" />
-      <module name="SwordToOffer" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="时间效率.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -500,19 +536,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NumberOf1Between" />
       <item itemvalue="Application.GetNumberOfK" />
       <item itemvalue="Application.BinarySearch" />
       <item itemvalue="Application.A" />
       <item itemvalue="Application.LastRemaining" />
+      <item itemvalue="Application.FindContinuousSequence" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindContinuousSequence" />
         <item itemvalue="Application.LastRemaining" />
         <item itemvalue="Application.A" />
         <item itemvalue="Application.GetNumberOfK" />
         <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.NumberOf1Between" />
       </list>
     </recent_temporary>
   </component>
@@ -552,6 +588,7 @@
       <workItem from="1563177289210" duration="1566000" />
       <workItem from="1563182384408" duration="3735000" />
       <workItem from="1563235932158" duration="27670000" />
+      <workItem from="1563615970239" duration="2125000" />
     </task>
     <task id="LOCAL-00001" summary="更新了一堆算法题">
       <created>1562661662649</created>
@@ -700,17 +737,24 @@
       <option name="project" value="LOCAL" />
       <updated>1563611952690</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="剑指offer：难度简单：字符串转整数，侧重边界处理(暂时不做)">
+      <created>1563613126000</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1563613126000</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182274000" />
+    <option name="totallyTimeSpent" value="187244000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24946696" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2521322" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -769,7 +813,8 @@
     <MESSAGE value="剑指offer：难度中等：数字在排序数组中出现的次数" />
     <MESSAGE value="剑指offer：难度中等：排序二叉树转双向链表" />
     <MESSAGE value="剑指offer：难度中等：把数组排成最小的数" />
-    <option name="LAST_COMMIT_MESSAGE" value="剑指offer：难度中等：把数组排成最小的数" />
+    <MESSAGE value="剑指offer：难度简单：字符串转整数，侧重边界处理(暂时不做)" />
+    <option name="LAST_COMMIT_MESSAGE" value="剑指offer：难度简单：字符串转整数，侧重边界处理(暂时不做)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -838,34 +883,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/秋招2019拼多多算法题/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/头条算法/权值最大的叶节点到权值最小的叶节点的距离.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding>
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dynamicprogramming/GoldMineAndKing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/头条算法/数组求指定数和.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -876,7 +893,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/树/TreeCheck.java">
+    <entry file="file://$PROJECT_DIR$/src/Tree/TreeCheck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
@@ -1157,7 +1174,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/树/Bianli.java">
+    <entry file="file://$PROJECT_DIR$/src/Tree/Bianli.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
@@ -1174,45 +1191,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/树/BreadthFirstTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/树/BinaryTreeTraversal.java">
+    <entry file="file://$PROJECT_DIR$/src/Tree/BinaryTreeTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/树/InOrderTraversal.java">
+    <entry file="file://$PROJECT_DIR$/src/Tree/BreadthFirstTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        <state relative-caret-position="299">
+          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/树/Convert.java">
+    <entry file="file://$PROJECT_DIR$/src/Tree/InOrderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        <state relative-caret-position="92">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/Convert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/数组/PrintMinNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/字符串/StrToInt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        <state relative-caret-position="138">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/PrintFromTopToBottom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/数组/FindContinuousSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

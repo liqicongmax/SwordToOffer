@@ -1,19 +1,25 @@
-package 树;
+package Tree;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * @author liqicong@myhexin.com
- * @date 2019/7/2 19:25
+ * @Author liqicong
+ * @Date 2019/7/20 16:59
+ * @Description
  */
-public class Bianli {
-    public void breadthFirstTraversal(TreeNode root){
+public class PrintFromTopToBottom {
+    public ArrayList<Integer> PrintFromTopToBottom(TreeNode root) {
+        ArrayList<Integer> list=new ArrayList<>();
+        if(root==null){
+            return list;
+        }
         Queue<TreeNode> queue=new LinkedList<>();
         queue.offer(root);
         while(!queue.isEmpty()){
             TreeNode node=queue.poll();
-            System.out.println(node.value);
+            list.add(node.value);
             if(node.left!=null){
                 queue.offer(node.left);
             }
@@ -21,5 +27,6 @@ public class Bianli {
                 queue.offer(node.right);
             }
         }
+        return list;
     }
 }

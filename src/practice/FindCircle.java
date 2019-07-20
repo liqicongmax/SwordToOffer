@@ -1,7 +1,6 @@
 package practice;
 
 import 链表.ListNode;
-import 树.TreeNode;
 
 /**
  * @Author liqicong

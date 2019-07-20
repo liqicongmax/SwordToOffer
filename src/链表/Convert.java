@@ -1,6 +1,6 @@
 package 链表;
 
-import 树.TreeNode;
+import Tree.TreeNode;
 
 /**
  * 题目描述

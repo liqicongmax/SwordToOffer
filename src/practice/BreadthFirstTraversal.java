@@ -1,9 +1,7 @@
 package practice;
 
-import javafx.beans.property.ReadOnlyIntegerWrapper;
-import 树.TreeNode;
+import Tree.TreeNode;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;

@@ -1,6 +1,6 @@
 package 头条算法;
 
-import 树.TreeNode;
+import Tree.TreeNode;
 
 /**
  * @author liqicong@myhexin.com
