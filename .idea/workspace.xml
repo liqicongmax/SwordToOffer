@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10543055-3536-441f-ae05-fac568893091" name="Default" comment="剑指offer:难度:中等,字符串找第一个只出现一次的字符,使用哈希表或者hashmap,意义不大">
+    <list default="true" id="10543055-3536-441f-ae05-fac568893091" name="Default" comment="剑指offer:难度:简单,扑克牌顺子判断是否成立">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/位运算/GetMedian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/位运算/GetMedian.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../tmall_ssm (1)/target/" />
@@ -55,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/src/字符串/FirstNotRepeatingChar.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
-              <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
               <folding>
                 <element signature="e#479#499#0" expanded="true" />
               </folding>
@@ -63,16 +64,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/位运算/GetMedian.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+            <state relative-caret-position="569">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#612#613#0" expanded="true" />
                 <element signature="e#644#645#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/位运算/IsContinuous.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -133,7 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/dynamicprogramming/LongestCommonString.java" />
         <option value="$PROJECT_DIR$/src/常见排序算法/HeapSort.java" />
         <option value="$PROJECT_DIR$/src/suibianxiexie/Stringgg.java" />
         <option value="$PROJECT_DIR$/src/test/最长回文子串.java" />
@@ -184,6 +193,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/leetcode386/LexicalOrder.java" />
         <option value="$PROJECT_DIR$/src/字符串/FirstNotRepeatingChar.java" />
         <option value="$PROJECT_DIR$/src/位运算/GetMedian.java" />
+        <option value="$PROJECT_DIR$/src/位运算/IsContinuous.java" />
       </list>
     </option>
   </component>
@@ -205,7 +215,7 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
-      <showMembers ProjectPane="true" />
+      <showMembers ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -318,6 +328,12 @@
               <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
               <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="查找" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="矩阵" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -360,7 +376,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563786212601" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563792673529" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/live-dubbo-master" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -381,7 +397,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.字符串复原IP地址">
+  <component name="RunManager" selected="Application.IsContinuous">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -429,20 +445,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="常见排序算法.BinarySearch" />
-      <module name="SwordToOffer" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="常见排序算法.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FindNumsAppearOnce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="数组.FindNumsAppearOnce" />
       <module name="SwordToOffer" />
@@ -464,6 +466,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="头条算法.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsContinuous" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="位运算.IsContinuous" />
+      <module name="SwordToOffer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="位运算.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -549,19 +565,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BinarySearch" />
       <item itemvalue="Application.字符串复原IP地址" />
       <item itemvalue="Application.两个有序数组找中位数" />
       <item itemvalue="Application.FindNumsAppearOnce" />
       <item itemvalue="Application.LexicalOrder" />
+      <item itemvalue="Application.IsContinuous" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IsContinuous" />
         <item itemvalue="Application.字符串复原IP地址" />
         <item itemvalue="Application.LexicalOrder" />
         <item itemvalue="Application.FindNumsAppearOnce" />
         <item itemvalue="Application.两个有序数组找中位数" />
-        <item itemvalue="Application.BinarySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -828,11 +844,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563784228437</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="剑指offer:难度:中等,数据流中获取中位数,很容易联想到堆排序,使用PriorityQueue">
+      <created>1563786265792</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1563786265792</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="258617000" />
+    <option name="totallyTimeSpent" value="261278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -850,7 +873,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4968017" weight="0.3997833" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4968017" visible="true" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -878,7 +901,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="动态规划,挖金矿问题,待完成" />
     <MESSAGE value="头条一面,数组求指定数的和" />
     <MESSAGE value="头条算法,寻找二叉树路径和" />
     <MESSAGE value="leetcode442找到数组中重复的数" />
@@ -903,7 +925,8 @@
     <MESSAGE value="剑指offer:难度中等:长度为n,范围为0~n-1数组中找第一个重复的数" />
     <MESSAGE value="leetcode386:难度:中等,字典树排序" />
     <MESSAGE value="剑指offer:难度:中等,字符串找第一个只出现一次的字符,使用哈希表或者hashmap,意义不大" />
-    <option name="LAST_COMMIT_MESSAGE" value="剑指offer:难度:中等,字符串找第一个只出现一次的字符,使用哈希表或者hashmap,意义不大" />
+    <MESSAGE value="剑指offer:难度:中等,数据流中获取中位数,很容易联想到堆排序,使用PriorityQueue" />
+    <option name="LAST_COMMIT_MESSAGE" value="剑指offer:难度:中等,数据流中获取中位数,很容易联想到堆排序,使用PriorityQueue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -932,6 +955,14 @@
           </properties>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/位运算/IsContinuous.java</url>
+          <line>19</line>
+          <properties class="位运算.IsContinuous" method="isContinuous">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/数组/Niuke203658.java</url>
           <line>42</line>
@@ -950,6 +981,12 @@
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/位运算/IsContinuous.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -958,34 +995,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/时间效率/NumberOf1Between.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/头条算法/寻找二叉树路径.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/头条算法/数字环.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/常见排序算法/HeapSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/头条算法/K个有序数组找中位数.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
@@ -1324,22 +1333,54 @@
     <entry file="file://$PROJECT_DIR$/src/字符串/FirstNotRepeatingChar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
-          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding>
             <element signature="e#479#499#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/查找/MinNumberInRotateArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/时间效率/NumberOf1Between.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/位运算/GetMedian.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        <state relative-caret-position="569">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#612#613#0" expanded="true" />
             <element signature="e#644#645#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="142" column="23" selection-start-line="142" selection-start-column="23" selection-end-line="142" selection-end-column="23" />
+          <folding>
+            <element signature="e#5027#5028#0" expanded="true" />
+            <element signature="e#5098#5099#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/位运算/IsContinuous.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
         </state>
       </provider>
     </entry>
