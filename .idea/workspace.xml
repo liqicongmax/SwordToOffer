@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10543055-3536-441f-ae05-fac568893091" name="Default" comment="leetcode386:难度:中等,字典树排序">
+    <list default="true" id="10543055-3536-441f-ae05-fac568893091" name="Default" comment="剑指offer:难度:中等,字符串找第一个只出现一次的字符,使用哈希表或者hashmap,意义不大">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/leetcode386/LexicalOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode386/LexicalOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/头条算法/字符串复原IP地址.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/头条算法/字符串复原IP地址.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../tmall_ssm (1)/target/" />
@@ -53,13 +51,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/字符串/FirstNotRepeatingChar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+            <state relative-caret-position="437">
+              <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
               <folding>
                 <element signature="e#479#499#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/位运算/GetMedian.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="741">
+              <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
+                <element signature="e#644#645#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,7 +88,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>isinterrupted</find>
       <find>todo</find>
       <find>compareandsetstate</find>
       <find>setstate</find>
@@ -106,6 +117,7 @@
       <find>condition</find>
       <find>implements condition</find>
       <find>segments</find>
+      <find>insert</find>
     </findStrings>
     <replaceStrings>
       <replace>node</replace>
@@ -121,7 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/头条算法/N维数组转1维数组.java" />
         <option value="$PROJECT_DIR$/src/dynamicprogramming/LongestCommonString.java" />
         <option value="$PROJECT_DIR$/src/常见排序算法/HeapSort.java" />
         <option value="$PROJECT_DIR$/src/suibianxiexie/Stringgg.java" />
@@ -172,6 +183,7 @@
         <option value="$PROJECT_DIR$/src/头条算法/字符串复原IP地址.java" />
         <option value="$PROJECT_DIR$/src/leetcode/leetcode386/LexicalOrder.java" />
         <option value="$PROJECT_DIR$/src/字符串/FirstNotRepeatingChar.java" />
+        <option value="$PROJECT_DIR$/src/位运算/GetMedian.java" />
       </list>
     </option>
   </component>
@@ -348,7 +360,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563784172745" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563786212601" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/live-dubbo-master" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -809,11 +821,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563779583713</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="剑指offer:难度:中等,字符串找第一个只出现一次的字符,使用哈希表或者hashmap,意义不大">
+      <created>1563784228437</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1563784228437</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="256482000" />
+    <option name="totallyTimeSpent" value="258617000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -859,7 +878,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="动态规划,最大连续子序列的和" />
     <MESSAGE value="动态规划,挖金矿问题,待完成" />
     <MESSAGE value="头条一面,数组求指定数的和" />
     <MESSAGE value="头条算法,寻找二叉树路径和" />
@@ -884,7 +902,8 @@
     <MESSAGE value="剑指offer:难度简单:递增数组找两数和为sum的数对" />
     <MESSAGE value="剑指offer:难度中等:长度为n,范围为0~n-1数组中找第一个重复的数" />
     <MESSAGE value="leetcode386:难度:中等,字典树排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode386:难度:中等,字典树排序" />
+    <MESSAGE value="剑指offer:难度:中等,字符串找第一个只出现一次的字符,使用哈希表或者hashmap,意义不大" />
+    <option name="LAST_COMMIT_MESSAGE" value="剑指offer:难度:中等,字符串找第一个只出现一次的字符,使用哈希表或者hashmap,意义不大" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -939,13 +958,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode41/FirstMissingPositiveNum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/时间效率/NumberOf1Between.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1311,10 +1323,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/字符串/FirstNotRepeatingChar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        <state relative-caret-position="437">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding>
             <element signature="e#479#499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/位运算/GetMedian.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
           </folding>
         </state>
       </provider>
