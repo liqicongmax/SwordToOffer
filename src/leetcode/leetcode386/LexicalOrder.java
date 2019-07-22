@@ -39,14 +39,15 @@ public class LexicalOrder {
     }
 
     private static List<Integer> lexicalOrder1(int n) {
-        if (n < 0) {
+        if(n<0){
             return result;
         }
-        for (int i = 1; i < 10; i++) {
-            if (i <= n) {
+        for(int i=1;i<10;i++){
+            if(i>n) {
                 result.add(i);
                 add(result, n, i);
-            } else {
+            }
+            else {
                 break;
             }
         }
@@ -54,14 +55,10 @@ public class LexicalOrder {
     }
 
     private static void add(ArrayList<Integer> list, int n, int start) {
-        start *= 10;
-        for (int i = 0; i < 10; i++,start++) {
-            if (start <= n) {
-                list.add(start);
-                add(list, n, start);
-            } else {
-                return;
-            }
+        start*=10;
+        if(start<n){
+            list.add(start);
+            add(list,n,start);
         }
     }
 

@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="10543055-3536-441f-ae05-fac568893091" name="Default" comment="剑指offer:难度:简单,扑克牌顺子判断是否成立">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/位运算/GetMedian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/位运算/GetMedian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/leetcode386/LexicalOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode386/LexicalOrder.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../tmall_ssm (1)/target/" />
@@ -26,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode386/LexicalOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            <state relative-caret-position="341">
+              <caret line="49" column="18" lean-forward="true" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,15 +39,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/头条算法/字符串复原IP地址.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode93/RestoreIpAddress.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2246#2247#0" expanded="true" />
-                <element signature="e#2324#2325#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="266">
+              <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -57,9 +52,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
               <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-              <folding>
-                <element signature="e#479#499#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -71,18 +63,18 @@
               <caret line="37" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#612#613#0" expanded="true" />
                 <element signature="e#644#645#0" expanded="true" />
+                <element signature="e#680#681#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/位运算/IsContinuous.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+            <state relative-caret-position="114">
+              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -143,7 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/常见排序算法/HeapSort.java" />
         <option value="$PROJECT_DIR$/src/suibianxiexie/Stringgg.java" />
         <option value="$PROJECT_DIR$/src/test/最长回文子串.java" />
         <option value="$PROJECT_DIR$/src/designModal/责任链模式/BusyProcess.java" />
@@ -190,10 +181,11 @@
         <option value="$PROJECT_DIR$/src/suibianxiexie/AQS.java" />
         <option value="$PROJECT_DIR$/src/头条算法/TransIp.java" />
         <option value="$PROJECT_DIR$/src/头条算法/字符串复原IP地址.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/leetcode386/LexicalOrder.java" />
         <option value="$PROJECT_DIR$/src/字符串/FirstNotRepeatingChar.java" />
         <option value="$PROJECT_DIR$/src/位运算/GetMedian.java" />
         <option value="$PROJECT_DIR$/src/位运算/IsContinuous.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/leetcode386/LexicalOrder.java" />
+        <option value="$PROJECT_DIR$/src/suibianxiexie/TransIp.java" />
       </list>
     </option>
   </component>
@@ -236,25 +228,6 @@
               <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
               <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="designModal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="designModal" type="462c0819:PsiDirectoryNode" />
-              <item name="责任链模式" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamicprogramming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -262,7 +235,14 @@
               <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode41" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode93" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode386" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
@@ -274,97 +254,7 @@
               <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
               <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Tree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="代码的完整性" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="位运算" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="头条算法" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="字符串" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="常见排序算法" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="数组" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="时间效率" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="查找" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="矩阵" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="秋招2019拼多多算法题" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="跳台阶" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="链表" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="队列和栈" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="面试题" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -376,7 +266,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563792673529" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563792741076" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/live-dubbo-master" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -619,6 +509,7 @@
       <workItem from="1563235932158" duration="28290000" />
       <workItem from="1563322633363" duration="20972000" />
       <workItem from="1563410340102" duration="25611000" />
+      <workItem from="1563836624424" duration="1826000" />
     </task>
     <task id="LOCAL-00001" summary="更新了一堆算法题">
       <created>1562661662649</created>
@@ -851,17 +742,24 @@
       <option name="project" value="LOCAL" />
       <updated>1563786265792</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="剑指offer:难度:简单,扑克牌顺子判断是否成立">
+      <created>1563792727360</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1563792727360</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="261278000" />
+    <option name="totallyTimeSpent" value="263260000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24946696" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2521322" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -873,7 +771,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4968017" visible="true" weight="0.3997833" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4968017" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -901,7 +799,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="头条一面,数组求指定数的和" />
     <MESSAGE value="头条算法,寻找二叉树路径和" />
     <MESSAGE value="leetcode442找到数组中重复的数" />
     <MESSAGE value="leetcode448找到数组中未出现的数" />
@@ -926,7 +823,8 @@
     <MESSAGE value="leetcode386:难度:中等,字典树排序" />
     <MESSAGE value="剑指offer:难度:中等,字符串找第一个只出现一次的字符,使用哈希表或者hashmap,意义不大" />
     <MESSAGE value="剑指offer:难度:中等,数据流中获取中位数,很容易联想到堆排序,使用PriorityQueue" />
-    <option name="LAST_COMMIT_MESSAGE" value="剑指offer:难度:中等,数据流中获取中位数,很容易联想到堆排序,使用PriorityQueue" />
+    <MESSAGE value="剑指offer:难度:简单,扑克牌顺子判断是否成立" />
+    <option name="LAST_COMMIT_MESSAGE" value="剑指offer:难度:简单,扑克牌顺子判断是否成立" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -995,20 +893,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/头条算法/K个有序数组找中位数.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="51" column="15" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/头条算法/两个有序数组找中位数.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/util/concurrent/locks/Lock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -1298,48 +1182,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/头条算法/TransIp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="50" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode386/LexicalOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/头条算法/字符串复原IP地址.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2246#2247#0" expanded="true" />
-            <element signature="e#2324#2325#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/字符串/FirstNotRepeatingChar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="e#479#499#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/头条算法/TransIp.java" />
     <entry file="file://$PROJECT_DIR$/src/查找/MinNumberInRotateArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1351,18 +1194,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-285">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/位运算/GetMedian.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1379,8 +1210,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/位运算/IsContinuous.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        <state relative-caret-position="114">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/位运算/GetMedian.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/字符串/FirstNotRepeatingChar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/头条算法/字符串复原IP地址.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode93/RestoreIpAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/suibianxiexie/TransIp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode386/LexicalOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="49" column="18" lean-forward="true" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
