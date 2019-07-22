@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10543055-3536-441f-ae05-fac568893091" name="Default" comment="二叉搜索树转双向链表">
+    <list default="true" id="10543055-3536-441f-ae05-fac568893091" name="Default" comment="leetcode386:难度:中等,字典树排序">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/leetcode386/LexicalOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode386/LexicalOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/头条算法/字符串复原IP地址.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/头条算法/字符串复原IP地址.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../tmall_ssm (1)/target/" />
@@ -26,61 +28,39 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/数组/Duplicate.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode386/LexicalOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/面试题/ThreadSafeCache.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tree/Convert.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/suibianxiexie/AQS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="95">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/头条算法/字符串复原IP地址.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2246#2247#0" expanded="true" />
+                <element signature="e#2324#2325#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode386/LexicalOrder.java">
+        <entry file="file://$PROJECT_DIR$/src/字符串/FirstNotRepeatingChar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="68" column="46" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
+            <state relative-caret-position="285">
+              <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#479#499#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/链表/PrintListFromTailToHead.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -141,8 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/dynamicprogramming/LongestIncreasingPath.java" />
-        <option value="$PROJECT_DIR$/src/dynamicprogramming/Palindorm.java" />
         <option value="$PROJECT_DIR$/src/头条算法/N维数组转1维数组.java" />
         <option value="$PROJECT_DIR$/src/dynamicprogramming/LongestCommonString.java" />
         <option value="$PROJECT_DIR$/src/常见排序算法/HeapSort.java" />
@@ -175,7 +153,6 @@
         <option value="$PROJECT_DIR$/src/时间效率/NumberOf1Between.java" />
         <option value="$PROJECT_DIR$/src/头条算法/K个有序数组找中位数.java" />
         <option value="$PROJECT_DIR$/src/常见排序算法/BinarySearch.java" />
-        <option value="$PROJECT_DIR$/src/头条算法/字符串复原IP地址.java" />
         <option value="$PROJECT_DIR$/src/头条算法/数字环.java" />
         <option value="$PROJECT_DIR$/src/头条算法/两个有序数组找中位数.java" />
         <option value="$PROJECT_DIR$/src/链表/FindFirstCommonNode.java" />
@@ -191,7 +168,10 @@
         <option value="$PROJECT_DIR$/src/树/InOrderTraversal.java" />
         <option value="$PROJECT_DIR$/src/树/Convert.java" />
         <option value="$PROJECT_DIR$/src/suibianxiexie/AQS.java" />
+        <option value="$PROJECT_DIR$/src/头条算法/TransIp.java" />
+        <option value="$PROJECT_DIR$/src/头条算法/字符串复原IP地址.java" />
         <option value="$PROJECT_DIR$/src/leetcode/leetcode386/LexicalOrder.java" />
+        <option value="$PROJECT_DIR$/src/字符串/FirstNotRepeatingChar.java" />
       </list>
     </option>
   </component>
@@ -368,7 +348,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563779499042" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563784172745" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/live-dubbo-master" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -389,7 +369,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LexicalOrder">
+  <component name="RunManager" selected="Application.字符串复原IP地址">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -565,10 +545,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.字符串复原IP地址" />
         <item itemvalue="Application.LexicalOrder" />
         <item itemvalue="Application.FindNumsAppearOnce" />
         <item itemvalue="Application.两个有序数组找中位数" />
-        <item itemvalue="Application.字符串复原IP地址" />
         <item itemvalue="Application.BinarySearch" />
       </list>
     </recent_temporary>
@@ -822,11 +802,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563524648097</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="leetcode386:难度:中等,字典树排序">
+      <created>1563779583713</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1563779583713</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="251867000" />
+    <option name="totallyTimeSpent" value="256482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -843,7 +830,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4968017" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -872,7 +859,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="leetcode754简单 最小移动次数" />
     <MESSAGE value="动态规划,最大连续子序列的和" />
     <MESSAGE value="动态规划,挖金矿问题,待完成" />
     <MESSAGE value="头条一面,数组求指定数的和" />
@@ -897,7 +883,8 @@
     <MESSAGE value="剑指offer:难度简单:判断栈弹出顺序是否合理" />
     <MESSAGE value="剑指offer:难度简单:递增数组找两数和为sum的数对" />
     <MESSAGE value="剑指offer:难度中等:长度为n,范围为0~n-1数组中找第一个重复的数" />
-    <option name="LAST_COMMIT_MESSAGE" value="剑指offer:难度中等:长度为n,范围为0~n-1数组中找第一个重复的数" />
+    <MESSAGE value="leetcode386:难度:中等,字典树排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode386:难度:中等,字典树排序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -952,20 +939,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/常见排序算法/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/常见排序算法/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode41/FirstMissingPositiveNum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
@@ -991,18 +964,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/头条算法/字符串复原IP地址.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2246#2247#0" expanded="true" />
-            <element signature="e#2324#2325#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1316,12 +1277,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode386/LexicalOrder.java">
+    <entry file="file://$PROJECT_DIR$/src/头条算法/TransIp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="68" column="46" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
+        <state relative-caret-position="475">
+          <caret line="50" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode386/LexicalOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/头条算法/字符串复原IP地址.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2246#2247#0" expanded="true" />
+            <element signature="e#2324#2325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/字符串/FirstNotRepeatingChar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+          <folding>
+            <element signature="e#479#499#0" expanded="true" />
           </folding>
         </state>
       </provider>
