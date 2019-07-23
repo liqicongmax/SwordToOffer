@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10543055-3536-441f-ae05-fac568893091" name="Default" comment="剑指offer:难度:中等,前序中序生成后序">
+    <list default="true" id="10543055-3536-441f-ae05-fac568893091" name="Default" comment="剑指offer:难度:中等,中序后序生成树">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -58,17 +58,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tree/ReConstructBinaryTreee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+            <state relative-caret-position="228">
+              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/OverMedium/MovingCount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="11" column="82" lean-forward="true" selection-start-line="11" selection-start-column="82" selection-end-line="11" selection-end-column="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tree/InOrderAndPostOrderToTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="136" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="23" selection-end-column="136" />
+            <state relative-caret-position="456">
+              <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -93,7 +102,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Node.share</find>
       <find>doacquiresha</find>
       <find>private node enq</find>
       <find>compareandsethead</find>
@@ -123,6 +131,7 @@
       <find>treeno</find>
       <find>hash</find>
       <find>reConstructBinaryTree</find>
+      <find>todo</find>
     </findStrings>
     <replaceStrings>
       <replace>node</replace>
@@ -139,7 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/dynamicprogramming/GoldMineAndKing.java" />
         <option value="$PROJECT_DIR$/src/头条算法/数组求指定数和.java" />
         <option value="$PROJECT_DIR$/src/头条算法/寻找二叉树路径.java" />
         <option value="$PROJECT_DIR$/src/leetcode/leetcode442/FindRepetitiveNumbers.java" />
@@ -190,6 +198,7 @@
         <option value="$PROJECT_DIR$/src/Tree/ReConstructBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/Tree/ReConstructBinaryTreee.java" />
         <option value="$PROJECT_DIR$/src/Tree/InOrderAndPostOrderToTree.java" />
+        <option value="$PROJECT_DIR$/src/OverMedium/MovingCount.java" />
       </list>
     </option>
   </component>
@@ -369,7 +378,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563869617436" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563879084094" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/live-dubbo-master" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -612,7 +621,7 @@
       <workItem from="1563235932158" duration="28290000" />
       <workItem from="1563322633363" duration="20972000" />
       <workItem from="1563410340102" duration="25611000" />
-      <workItem from="1563836624424" duration="24878000" />
+      <workItem from="1563836624424" duration="29844000" />
     </task>
     <task id="LOCAL-00001" summary="更新了一堆算法题">
       <created>1562661662649</created>
@@ -901,11 +910,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563866586390</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="剑指offer:难度:中等,中序后序生成树">
+      <created>1563869649720</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1563869649720</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="286312000" />
+    <option name="totallyTimeSpent" value="291278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -951,7 +967,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="生产者消费者模型" />
     <MESSAGE value="动态规划:股票最大收益(一次买卖/2次买卖/无限次买卖)" />
     <MESSAGE value="更新了二维数组中查找的简单写法" />
     <MESSAGE value="增加了几个剑指offer上面的数组优化算法" />
@@ -976,7 +991,8 @@
     <MESSAGE value="剑指offer:难度:简单,二叉树之字型打印" />
     <MESSAGE value="剑指offer:难度:中等,二叉树B是否包含在二叉树A中" />
     <MESSAGE value="剑指offer:难度:中等,前序中序生成后序" />
-    <option name="LAST_COMMIT_MESSAGE" value="剑指offer:难度:中等,前序中序生成后序" />
+    <MESSAGE value="剑指offer:难度:中等,中序后序生成树" />
+    <option name="LAST_COMMIT_MESSAGE" value="剑指offer:难度:中等,中序后序生成树" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1059,17 +1075,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/util/concurrent/locks/AbstractOwnableSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
-          <folding>
-            <element signature="e#1663#1664#0" expanded="true" />
-            <element signature="e#1708#1709#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/util/concurrent/locks/ReadWriteLock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="593">
@@ -1442,17 +1447,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/ReConstructBinaryTreee.java">
+    <entry file="file://$PROJECT_DIR$/src/Tree/InOrderAndPostOrderToTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        <state relative-caret-position="456">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/InOrderAndPostOrderToTree.java">
+    <entry file="file://$PROJECT_DIR$/src/Tree/ReConstructBinaryTreee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="136" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="23" selection-end-column="136" />
+        <state relative-caret-position="228">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OverMedium/MovingCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="11" column="82" lean-forward="true" selection-start-line="11" selection-start-column="82" selection-end-line="11" selection-end-column="82" />
         </state>
       </provider>
     </entry>
