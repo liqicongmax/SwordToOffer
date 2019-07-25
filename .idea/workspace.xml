@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10543055-3536-441f-ae05-fac568893091" name="Default" comment="剑指offer：难度中等：和为sum的连续正数序列(从1开始），应用了滑动窗口的思想">
+    <list default="true" id="10543055-3536-441f-ae05-fac568893091" name="Default" comment="剑指offer:难度:中等,判断矩阵中是否存在字符串路径">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OverMedium/GetUglyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OverMedium/GetUglyNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/suibianxiexie/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/suibianxiexie/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/链表/FindFirstCommonNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/链表/FindFirstCommonNode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../tmall_ssm (1)/target/" />
@@ -25,11 +29,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OverMedium/GetUglyNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="30" selection-end-column="39" />
+            <state relative-caret-position="133">
+              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/OverMedium/Permutation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -45,36 +58,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>todo</find>
-      <find>compareandsetstate</find>
-      <find>setstate</find>
-      <find>fair</find>
-      <find>tryAcquire</find>
-      <find>hasqueuedthread</find>
-      <find>compareandsettail</find>
-      <find>headOffset</find>
-      <find>sethead</find>
-      <find>acquirequeued</find>
-      <find>addwaiter</find>
-      <find>unparkSuccess</find>
-      <find>public final</find>
-      <find>public final void acquire</find>
-      <find>Node.share</find>
-      <find>doacquiresha</find>
-      <find>private node enq</find>
-      <find>compareandsethead</find>
-      <find>should</find>
-      <find>unpark</find>
-      <find>nonfair</find>
-      <find>protected final boolean tryacquire</find>
-      <find>getReadLockcount</find>
-      <find>tryacquire</find>
-      <find>protected final boolean tryAcquire</find>
       <find>tryAcquireShared(int unused)</find>
       <find>condition</find>
       <find>implements condition</find>
       <find>segments</find>
       <find>insert</find>
+      <find>int cap</find>
+      <find>Entry</find>
+      <find>int hash</find>
+      <find>segment</find>
+      <find>cas</find>
+      <find>compareandset</find>
+      <find>treebin</find>
+      <find>sizectl</find>
+      <find>Node</find>
+      <find>get</find>
+      <find>treenode</find>
+      <find>treeno</find>
+      <find>hash</find>
+      <find>reConstructBinaryTree</find>
+      <find>todo</find>
+      <find>index</find>
+      <find>item</find>
+      <find>succ</find>
+      <find>hops</find>
+      <find>mine</find>
+      <find>comparea</find>
+      <find>compare</find>
+      <find>forkjointask</find>
+      <find>forkjointask[]</find>
+      <find>CyclicBarrier</find>
     </findStrings>
     <replaceStrings>
       <replace>node</replace>
@@ -82,7 +95,12 @@
       <replace>target</replace>
       <replace>arr</replace>
       <replace>index</replace>
+      <replace>buildTree</replace>
+      <replace>count</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\viruser.v-desktop\Downloads\SwordToOffer\src\dynamicprogramming</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -90,23 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/最长回文子串.java" />
-        <option value="$PROJECT_DIR$/src/designModal/责任链模式/BusyProcess.java" />
-        <option value="$PROJECT_DIR$/src/designModal/责任链模式/FreeProcess.java" />
-        <option value="$PROJECT_DIR$/src/designModal/责任链模式/RunProcess.java" />
-        <option value="$PROJECT_DIR$/src/designModal/责任链模式/ProcessingObject.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/leetcode754/ReachNumber.java" />
-        <option value="$PROJECT_DIR$/src/dynamicprogramming/GoldMineAndKing.java" />
-        <option value="$PROJECT_DIR$/src/头条算法/数组求指定数和.java" />
-        <option value="$PROJECT_DIR$/src/头条算法/寻找二叉树路径.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/leetcode442/FindRepetitiveNumbers.java" />
-        <option value="$PROJECT_DIR$/src/头条算法/权值最大的叶节点到权值最小的页节点的距离.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/leetcode448/FindDisappearedNumbers.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/leetcode41/FirstMissingPositiveNum.java" />
-        <option value="$PROJECT_DIR$/src/常见排序算法/SelectSort.java" />
-        <option value="$PROJECT_DIR$/src/suibianxiexie/Interrupted.java" />
-        <option value="$PROJECT_DIR$/src/suibianxiexie/ProviderAndConsumer.java" />
-        <option value="$PROJECT_DIR$/src/dynamicprogramming/MaxSequence.java" />
         <option value="$PROJECT_DIR$/src/矩阵/PrintMatrix.java" />
         <option value="$PROJECT_DIR$/src/头条算法/字符串转码.java" />
         <option value="$PROJECT_DIR$/src/头条算法/股票买进卖出求利润最大.java" />
@@ -120,7 +121,6 @@
         <option value="$PROJECT_DIR$/src/常见排序算法/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/头条算法/数字环.java" />
         <option value="$PROJECT_DIR$/src/头条算法/两个有序数组找中位数.java" />
-        <option value="$PROJECT_DIR$/src/链表/FindFirstCommonNode.java" />
         <option value="$PROJECT_DIR$/src/链表/FindEntryOfLoop.java" />
         <option value="$PROJECT_DIR$/src/字符串/LeftRotateString.java" />
         <option value="$PROJECT_DIR$/src/字符串/FindFirstOnceAppear.java" />
@@ -135,12 +135,30 @@
         <option value="$PROJECT_DIR$/src/suibianxiexie/AQS.java" />
         <option value="$PROJECT_DIR$/src/头条算法/TransIp.java" />
         <option value="$PROJECT_DIR$/src/头条算法/字符串复原IP地址.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/leetcode386/LexicalOrder.java" />
         <option value="$PROJECT_DIR$/src/字符串/FirstNotRepeatingChar.java" />
         <option value="$PROJECT_DIR$/src/位运算/GetMedian.java" />
         <option value="$PROJECT_DIR$/src/位运算/IsContinuous.java" />
-        <option value="$PROJECT_DIR$/src/recovery/HasPath.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/leetcode386/LexicalOrder.java" />
+        <option value="$PROJECT_DIR$/src/suibianxiexie/TransIp.java" />
+        <option value="$PROJECT_DIR$/src/Tree/KthNode.java" />
+        <option value="$PROJECT_DIR$/src/数组/MaxInWindow.java" />
+        <option value="$PROJECT_DIR$/src/Tree/PrintTreeAsZhi.java" />
+        <option value="$PROJECT_DIR$/src/Tree/HasSubbTree.java" />
+        <option value="$PROJECT_DIR$/src/Tree/ReConstructBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/Tree/ReConstructBinaryTreee.java" />
+        <option value="$PROJECT_DIR$/src/Tree/InOrderAndPostOrderToTree.java" />
+        <option value="$PROJECT_DIR$/src/OverMedium/MovingCount.java" />
+        <option value="$PROJECT_DIR$/src/OverMedium/HasPath.java" />
+        <option value="$PROJECT_DIR$/src/suibianxiexie/A.java" />
+        <option value="$PROJECT_DIR$/src/suibianxiexie/ConcurrentLinkedQueue.java" />
+        <option value="$PROJECT_DIR$/src/Tree/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/链表/FindFirstCommonNode.java" />
+        <option value="$PROJECT_DIR$/src/suibianxiexie/LazySetTest.java" />
+        <option value="$PROJECT_DIR$/src/suibianxiexie/CountDownLatchTest.java" />
+        <option value="$PROJECT_DIR$/src/suibianxiexie/CyclicBarrierTest.java" />
+        <option value="$PROJECT_DIR$/src/suibianxiexie/CountTask.java" />
         <option value="$PROJECT_DIR$/src/OverMedium/GetUglyNumber.java" />
+        <option value="$PROJECT_DIR$/src/OverMedium/Permutation.java" />
       </list>
     </option>
   </component>
@@ -162,11 +180,12 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
-      <showMembers ProjectPane="false" />
+      <showMembers ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,19 +197,6 @@
               <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
               <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="designModal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="designModal" type="462c0819:PsiDirectoryNode" />
-              <item name="责任链模式" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
@@ -209,7 +215,14 @@
               <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode91" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode93" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode386" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
@@ -221,25 +234,13 @@
               <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
               <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="recovery" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="suibianxiexie" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
               <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="代码的完整性" type="462c0819:PsiDirectoryNode" />
+              <item name="Tree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
@@ -257,37 +258,7 @@
               <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
               <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="字符串" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="常见排序算法" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="数组" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="矩阵" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="秋招2019拼多多算法题" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SwordToOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="跳台阶" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
@@ -299,13 +270,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563897579978" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564050915032" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/live-dubbo-master" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -326,7 +296,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IsContinuous">
+  <component name="RunManager" selected="Application.CyclicBarrierTest">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -360,13 +330,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="两个有序数组找中位数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="头条算法.两个有序数组找中位数" />
+    <configuration name="CountDownLatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="suibianxiexie.CountDownLatchTest" />
       <module name="SwordToOffer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="头条算法.*" />
+          <option name="PATTERN" value="suibianxiexie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -374,13 +344,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindNumsAppearOnce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="数组.FindNumsAppearOnce" />
+    <configuration name="CountTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="suibianxiexie.CountTask" />
       <module name="SwordToOffer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="数组.*" />
+          <option name="PATTERN" value="suibianxiexie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -388,13 +358,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="字符串复原IP地址" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="头条算法.字符串复原IP地址" />
+    <configuration name="CyclicBarrierTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="suibianxiexie.CyclicBarrierTest" />
       <module name="SwordToOffer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="头条算法.*" />
+          <option name="PATTERN" value="suibianxiexie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -402,13 +372,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsContinuous" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="位运算.IsContinuous" />
+    <configuration name="HasPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OverMedium.HasPath" />
       <module name="SwordToOffer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="位运算.*" />
+          <option name="PATTERN" value="OverMedium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -416,13 +386,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LexicalOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.leetcode386.LexicalOrder" />
+    <configuration name="LazySetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="suibianxiexie.LazySetTest" />
       <module name="SwordToOffer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.leetcode386.*" />
+          <option name="PATTERN" value="suibianxiexie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -494,19 +464,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.字符串复原IP地址" />
-      <item itemvalue="Application.两个有序数组找中位数" />
-      <item itemvalue="Application.FindNumsAppearOnce" />
-      <item itemvalue="Application.LexicalOrder" />
-      <item itemvalue="Application.IsContinuous" />
+      <item itemvalue="Application.HasPath" />
+      <item itemvalue="Application.CountTask" />
+      <item itemvalue="Application.LazySetTest" />
+      <item itemvalue="Application.CountDownLatchTest" />
+      <item itemvalue="Application.CyclicBarrierTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IsContinuous" />
-        <item itemvalue="Application.字符串复原IP地址" />
-        <item itemvalue="Application.LexicalOrder" />
-        <item itemvalue="Application.FindNumsAppearOnce" />
-        <item itemvalue="Application.两个有序数组找中位数" />
+        <item itemvalue="Application.CyclicBarrierTest" />
+        <item itemvalue="Application.CountDownLatchTest" />
+        <item itemvalue="Application.LazySetTest" />
+        <item itemvalue="Application.CountTask" />
+        <item itemvalue="Application.HasPath" />
       </list>
     </recent_temporary>
   </component>
@@ -548,6 +518,8 @@
       <workItem from="1563235932158" duration="28290000" />
       <workItem from="1563322633363" duration="20972000" />
       <workItem from="1563410340102" duration="25611000" />
+      <workItem from="1563836624424" duration="36547000" />
+      <workItem from="1564009993546" duration="18948000" />
     </task>
     <task id="LOCAL-00001" summary="更新了一堆算法题">
       <created>1562661662649</created>
@@ -780,17 +752,87 @@
       <option name="project" value="LOCAL" />
       <updated>1563786265792</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="剑指offer:难度:简单,扑克牌顺子判断是否成立">
+      <created>1563792727360</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1563792727360</updated>
+    </task>
+    <task id="LOCAL-00035" summary="剑指offer:难度:简单,扑克牌顺子判断是否成立xxxxxxxxxxxxxxxxxx">
+      <created>1563838786560</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1563838786560</updated>
+    </task>
+    <task id="LOCAL-00036" summary="剑指offer:难度:简单,滑动窗口中的最大值">
+      <created>1563842022039</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1563842022039</updated>
+    </task>
+    <task id="LOCAL-00037" summary="剑指offer:难度:简单,二叉搜索树的第K个节点,就是个中序遍历">
+      <created>1563843368988</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1563843368988</updated>
+    </task>
+    <task id="LOCAL-00038" summary="剑指offer:难度:简单,二叉搜索树的第K个节点,就是个中序遍历">
+      <created>1563843382810</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1563843382810</updated>
+    </task>
+    <task id="LOCAL-00039" summary="剑指offer:难度:简单,二叉树之字型打印">
+      <created>1563851035597</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1563851035597</updated>
+    </task>
+    <task id="LOCAL-00040" summary="剑指offer:难度:中等,二叉树B是否包含在二叉树A中">
+      <created>1563855520753</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1563855520753</updated>
+    </task>
+    <task id="LOCAL-00041" summary="剑指offer:难度:中等,前序中序生成后序">
+      <created>1563866586390</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1563866586390</updated>
+    </task>
+    <task id="LOCAL-00042" summary="剑指offer:难度:中等,中序后序生成树">
+      <created>1563869649720</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1563869649720</updated>
+    </task>
+    <task id="LOCAL-00043" summary="剑指offer:难度:中等,机器人走格子">
+      <created>1563879123906</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1563879123906</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="264270000" />
+    <option name="totallyTimeSpent" value="331583000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26012793" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25746268" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -801,14 +843,14 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4968017" visible="true" weight="0.3997833" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4936034" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49307036" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50319827" side_tool="true" weight="0.3997833" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5063966" side_tool="true" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4989339" weight="0.32936078" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
@@ -830,15 +872,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="头条一面,数组求指定数的和" />
-    <MESSAGE value="头条算法,寻找二叉树路径和" />
-    <MESSAGE value="leetcode442找到数组中重复的数" />
-    <MESSAGE value="leetcode448找到数组中未出现的数" />
-    <MESSAGE value="2道头条面试算法题晚上回去看下" />
-    <MESSAGE value="二维数组找数据" />
-    <MESSAGE value="二维数组找数据需求简单算法" />
-    <MESSAGE value="生产者消费者模型" />
-    <MESSAGE value="动态规划:股票最大收益(一次买卖/2次买卖/无限次买卖)" />
     <MESSAGE value="更新了二维数组中查找的简单写法" />
     <MESSAGE value="增加了几个剑指offer上面的数组优化算法" />
     <MESSAGE value="二分查找" />
@@ -855,7 +888,16 @@
     <MESSAGE value="leetcode386:难度:中等,字典树排序" />
     <MESSAGE value="剑指offer:难度:中等,字符串找第一个只出现一次的字符,使用哈希表或者hashmap,意义不大" />
     <MESSAGE value="剑指offer:难度:中等,数据流中获取中位数,很容易联想到堆排序,使用PriorityQueue" />
-    <option name="LAST_COMMIT_MESSAGE" value="剑指offer:难度:中等,数据流中获取中位数,很容易联想到堆排序,使用PriorityQueue" />
+    <MESSAGE value="剑指offer:难度:简单,扑克牌顺子判断是否成立" />
+    <MESSAGE value="剑指offer:难度:简单,扑克牌顺子判断是否成立xxxxxxxxxxxxxxxxxx" />
+    <MESSAGE value="剑指offer:难度:简单,滑动窗口中的最大值" />
+    <MESSAGE value="剑指offer:难度:简单,二叉搜索树的第K个节点,就是个中序遍历" />
+    <MESSAGE value="剑指offer:难度:简单,二叉树之字型打印" />
+    <MESSAGE value="剑指offer:难度:中等,二叉树B是否包含在二叉树A中" />
+    <MESSAGE value="剑指offer:难度:中等,前序中序生成后序" />
+    <MESSAGE value="剑指offer:难度:中等,中序后序生成树" />
+    <MESSAGE value="剑指offer:难度:中等,机器人走格子" />
+    <option name="LAST_COMMIT_MESSAGE" value="剑指offer:难度:中等,机器人走格子" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -892,6 +934,14 @@
           </properties>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/数组/MaxInWindow.java</url>
+          <line>19</line>
+          <properties class="数组.MaxInWindow" method="maxInWindows">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/数组/Niuke203658.java</url>
           <line>42</line>
@@ -916,6 +966,12 @@
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/数组/MaxInWindow.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -924,281 +980,411 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/util/Queue.java" />
-    <entry file="file://$PROJECT_DIR$/src/树/BinaryTreeTraversal.java" />
-    <entry file="file://$PROJECT_DIR$/src/链表/FindFirstCommonNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/链表/FindEntryOfLoop.java">
+    <entry file="file://$PROJECT_DIR$/src/字符串/FirstNotRepeatingChar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/字符串/LeftRotateString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/树/BreadthFirstTraversal.java" />
-    <entry file="file://$PROJECT_DIR$/src/数组/GetNumberOfK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/util/concurrent/locks/AbstractOwnableSynchronizer.java" />
-    <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/util/concurrent/locks/ReadWriteLock.java" />
-    <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/lang/ThreadLocal.java" />
-    <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java" />
-    <entry file="file://$PROJECT_DIR$/src/数组/FindNumsAppearOnce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding>
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/队列和栈/IspopOrdr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/队列和栈/IsPopOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/数组/FindNumbersWithSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/数组/Duplicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/链表/FindKthToTail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/链表/ReverseList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/树/InOrderTraversal.java" />
-    <entry file="file://$PROJECT_DIR$/src/树/Convert.java" />
-    <entry file="file://$PROJECT_DIR$/src/面试题/ThreadSafeCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/Convert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/suibianxiexie/A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/util/concurrent/locks/ReentrantLock.java" />
-    <entry file="file://$PROJECT_DIR$/src/链表/PrintListFromTailToHead.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/util/concurrent/locks/Condition.java" />
-    <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java" />
-    <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/util/concurrent/ConcurrentHashMap.java" />
-    <entry file="file://$PROJECT_DIR$/src/suibianxiexie/AQS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/util/HashMap.java" />
-    <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/util/List.java" />
-    <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/util/Collections.java" />
-    <entry file="file://$PROJECT_DIR$/src/头条算法/TransIp.java" />
-    <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode386/LexicalOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/头条算法/字符串复原IP地址.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2246#2247#0" expanded="true" />
-            <element signature="e#2324#2325#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/字符串/FirstNotRepeatingChar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="e#479#499#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/查找/MinNumberInRotateArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/时间效率/NumberOf1Between.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/位运算/GetMedian.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/util/Arrays.java" />
-    <entry file="file://$PROJECT_DIR$/src/位运算/IsContinuous.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/数组/FindContinuousSequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        <state relative-caret-position="418">
+          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/TreeNode.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode93/RestoreIpAddress.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="266">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/数组/PrintMinNumber.java">
+    <entry file="file://$PROJECT_DIR$/src/suibianxiexie/TransIp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="208">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/字符串/StrToInt.java">
+    <entry file="file://$PROJECT_DIR$/src/链表/PrintListFromTailToHead.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        <state relative-caret-position="456">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/数组/MaxInWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="608" column="7" lean-forward="true" selection-start-line="608" selection-start-column="7" selection-end-line="608" selection-end-column="7" />
+          <folding>
+            <element signature="e#24298#24299#0" expanded="true" />
+            <element signature="e#24363#24364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="2677" column="11" lean-forward="true" selection-start-line="2677" selection-start-column="11" selection-end-line="2677" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/PrintFromTopToBottom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="228">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="3587" column="24" selection-start-line="3587" selection-start-column="24" selection-end-line="3587" selection-end-column="24" />
+          <folding>
+            <element signature="e#5027#5028#0" expanded="true" />
+            <element signature="e#5098#5099#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/InOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/ReConstructBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/HasSubtree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="10" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/HasSubbTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/BreadthFirstTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/PrintTreeAsZhi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/KthNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OverMedium/HasPath.java">
+    <entry file="file://$PROJECT_DIR$/src/头条算法/K个有序数组找中位数.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        <state relative-caret-position="-38">
+          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dynamicprogramming/LongestIncreasingPath.java">
+    <entry file="file://$PROJECT_DIR$/src/头条算法/字符串转码.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="35" column="15" lean-forward="true" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/头条算法/两个有序数组找第K个数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/头条算法/两个有序数组找中位数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/InOrderAndPostOrderToTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/ReConstructBinaryTreee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OverMedium/MovingCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/recovery/HasPath.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OverMedium/HasPath.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        <state relative-caret-position="399">
+          <caret line="49" column="32" lean-forward="true" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/字符串/FindFirstOnceAppear.java">
+    <entry file="file://$PROJECT_DIR$/src/suibianxiexie/A.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        <state relative-caret-position="247">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ThsSoftware/jdk/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="303" column="32" selection-start-line="303" selection-start-column="32" selection-end-line="303" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/suibianxiexie/ConcurrentLinkedQueue.java" />
+    <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/util/concurrent/ConcurrentLinkedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="409" column="22" lean-forward="true" selection-start-line="409" selection-start-column="22" selection-end-line="409" selection-end-column="22" />
+          <folding>
+            <element signature="e#8055#8056#0" expanded="true" />
+            <element signature="e#8125#8126#0" expanded="true" />
+            <element signature="e#8178#8179#0" expanded="true" />
+            <element signature="e#8264#8265#0" expanded="true" />
+            <element signature="e#10037#10038#0" expanded="true" />
+            <element signature="e#10084#10085#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamicprogramming/GoldMineAndKing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="350" column="13" lean-forward="true" selection-start-line="350" selection-start-column="13" selection-end-line="350" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3763#3793#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/util/concurrent/Delayed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="50" column="7" lean-forward="true" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#3033#3034#0" expanded="true" />
+            <element signature="e#3057#3058#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/util/AbstractQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1825">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/util/concurrent/BlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="179" column="17" selection-start-line="179" selection-start-column="17" selection-end-line="179" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/util/concurrent/SynchronousQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="707" lean-forward="true" selection-start-line="707" selection-end-line="707" />
+          <folding>
+            <element signature="e#35291#35292#0" expanded="true" />
+            <element signature="e#35374#35375#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/链表/FindFirstCommonNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/util/concurrent/ForkJoinTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="212" lean-forward="true" selection-start-line="212" selection-end-line="212" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ThsSoftware/jdk/jre/lib/rt.jar!/sun/misc/Contended.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/util/concurrent/RecursiveTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="67" column="54" selection-start-line="67" selection-start-column="54" selection-end-line="67" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/suibianxiexie/CountTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/util/concurrent/ForkJoinPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="1229" column="44" selection-start-line="1229" selection-start-column="30" selection-end-line="1229" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/suibianxiexie/LazySetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/suibianxiexie/CountDownLatchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/suibianxiexie/CyclicBarrierTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding>
+            <element signature="e#1564#1565#0" expanded="true" />
+            <element signature="e#1616#1617#0" expanded="true" />
+            <marker date="1564033454275" expanded="true" signature="915:983" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/util/concurrent/CyclicBarrier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="274" column="73" lean-forward="true" selection-start-line="274" selection-start-column="73" selection-end-line="274" selection-end-column="73" />
+          <folding>
+            <element signature="e#9581#9582#0" expanded="true" />
+            <element signature="e#9616#9617#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/OverMedium/GetUglyNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="30" selection-end-column="39" />
+        <state relative-caret-position="133">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode386/LexicalOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="39" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OverMedium/Permutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
         </state>
       </provider>
     </entry>

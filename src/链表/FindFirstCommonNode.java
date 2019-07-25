@@ -1,5 +1,8 @@
 package 链表;
 
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.SynchronousQueue;
+
 /**
  * @author liqicong@myhexin.com
  * @date 2019/7/18 14:41
