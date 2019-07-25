@@ -20,9 +20,9 @@ public class Permutation {
         if(str.length()==0|| str.length()>9){
             return list;
         }
-
+        return list;
     }
     private ArrayList<String> generate(String str){
-
+        return null;
     }
 }

@@ -30,7 +30,6 @@ public class LastRemaining {
         if(n==1){
             return 0;
         }
-        HashMap<Integer,Integer> map=new HashMap<>();
         int index=0;
         for(int i=0;i<n;i++){
             list.add(i);
