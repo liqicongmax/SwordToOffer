@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10543055-3536-441f-ae05-fac568893091" name="Default" comment="剑指offer:难度:中等,字典序打印字符串中字符的所有排列">
+    <list default="true" id="10543055-3536-441f-ae05-fac568893091" name="Default" comment="剑指offer:难度:中等,字符串匹配.*的正则表达式">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -46,11 +46,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OverMedium/GrexMatch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+            <state relative-caret-position="76">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/数组/FindNumsAppearOnce.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/数组/FindNumAppearOnceII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -66,7 +84,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>tryAcquireShared(int unused)</find>
       <find>condition</find>
       <find>implements condition</find>
       <find>segments</find>
@@ -96,6 +113,7 @@
       <find>forkjointask</find>
       <find>forkjointask[]</find>
       <find>CyclicBarrier</find>
+      <find>^</find>
     </findStrings>
     <replaceStrings>
       <replace>node</replace>
@@ -116,7 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/头条算法/字符串转码.java" />
         <option value="$PROJECT_DIR$/src/头条算法/股票买进卖出求利润最大.java" />
         <option value="$PROJECT_DIR$/src/数组/Find.java" />
         <option value="$PROJECT_DIR$/src/常见排序算法/QuickSort.java" />
@@ -167,6 +184,7 @@
         <option value="$PROJECT_DIR$/src/OverMedium/GetUglyNumber.java" />
         <option value="$PROJECT_DIR$/src/OverMedium/Permutation.java" />
         <option value="$PROJECT_DIR$/src/OverMedium/GrexMatch.java" />
+        <option value="$PROJECT_DIR$/src/数组/FindNumAppearOnceII.java" />
       </list>
     </option>
   </component>
@@ -283,7 +301,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564109300423" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564111652099" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/live-dubbo-master" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -304,7 +322,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GrexMatch">
+  <component name="RunManager" selected="Application.FindNumAppearOnceII">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -366,13 +384,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GrexMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OverMedium.GrexMatch" />
+    <configuration name="FindNumAppearOnceII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="数组.FindNumAppearOnceII" />
       <module name="SwordToOffer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OverMedium.*" />
+          <option name="PATTERN" value="数组.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -380,13 +398,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LazySetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="suibianxiexie.LazySetTest" />
+    <configuration name="GrexMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OverMedium.GrexMatch" />
       <module name="SwordToOffer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="suibianxiexie.*" />
+          <option name="PATTERN" value="OverMedium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -472,19 +490,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LazySetTest" />
       <item itemvalue="Application.CountDownLatchTest" />
       <item itemvalue="Application.CyclicBarrierTest" />
       <item itemvalue="Application.Permutation" />
       <item itemvalue="Application.GrexMatch" />
+      <item itemvalue="Application.FindNumAppearOnceII" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindNumAppearOnceII" />
         <item itemvalue="Application.GrexMatch" />
         <item itemvalue="Application.Permutation" />
         <item itemvalue="Application.CyclicBarrierTest" />
         <item itemvalue="Application.CountDownLatchTest" />
-        <item itemvalue="Application.LazySetTest" />
       </list>
     </recent_temporary>
   </component>
@@ -837,11 +855,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564105454613</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="剑指offer:难度:中等,字符串匹配.*的正则表达式">
+      <created>1564109415256</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1564109415256</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="340142000" />
+    <option name="totallyTimeSpent" value="342277000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -858,13 +883,13 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49253732" visible="true" weight="0.32827735" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49093816" weight="0.3997833" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49200428" weight="0.32827735" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.48987207" visible="true" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5074627" side_tool="true" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5101279" side_tool="true" visible="true" weight="0.3997833" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4989339" weight="0.32936078" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -887,7 +912,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="增加了几个剑指offer上面的数组优化算法" />
     <MESSAGE value="二分查找" />
     <MESSAGE value="头条算法:&#10;    复原ip地址,K个有序数组找中位数" />
     <MESSAGE value="剑指offer:难度容易:两条链表的第一个公共点" />
@@ -912,7 +936,8 @@
     <MESSAGE value="剑指offer:难度:中等,中序后序生成树" />
     <MESSAGE value="剑指offer:难度:中等,机器人走格子" />
     <MESSAGE value="剑指offer:难度:中等,字典序打印字符串中字符的所有排列" />
-    <option name="LAST_COMMIT_MESSAGE" value="剑指offer:难度:中等,字典序打印字符串中字符的所有排列" />
+    <MESSAGE value="剑指offer:难度:中等,字符串匹配.*的正则表达式" />
+    <option name="LAST_COMMIT_MESSAGE" value="剑指offer:难度:中等,字符串匹配.*的正则表达式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -965,6 +990,14 @@
           </properties>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/数组/FindNumAppearOnceII.java</url>
+          <line>12</line>
+          <properties class="数组.FindNumAppearOnceII" method="findAppearOnce">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/数组/Niuke203658.java</url>
           <line>42</line>
@@ -1001,6 +1034,12 @@
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/数组/FindNumAppearOnceII.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -1009,23 +1048,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode93/RestoreIpAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/suibianxiexie/TransIp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/链表/PrintListFromTailToHead.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -1412,8 +1434,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/OverMedium/GrexMatch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        <state relative-caret-position="76">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/数组/FindNumsAppearOnce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/数组/FindNumAppearOnceII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
