@@ -16,7 +16,7 @@ public class Divide {
      */
     private static final int ERROR_NUM = Integer.MAX_VALUE - 1;
 
-    public int divide(int dividend, int divisor) {
+    private static int divide(int dividend, int divisor) {
         if (divisor == 0) {
             return -1;
         }
@@ -34,9 +34,31 @@ public class Divide {
         }
         return (dividend^divisor)<0?(Math.abs(result)*-1):(Math.abs(result));
     }
-
+    private static int divide1(int dividend,int divisor){
+        if (divisor == 0) {
+            return -1;
+        }
+        if(dividend==Integer.MIN_VALUE&&divisor==-1){
+            return Integer.MAX_VALUE;
+        }
+        int t=Math.abs(dividend);
+        int d=Math.abs(divisor);
+        int result=0;
+        int temp;
+        while(t>=d){
+            temp=divisor;
+            int k=1;
+            while(t>=(temp+temp)){
+                k+=k;
+                temp+=temp;
+            }
+            result+=k;
+            t=t-temp;
+        }
+        return (dividend^divisor)<0?(Math.abs(result)*-1):(Math.abs(result));
+    }
 
     public static void main(String[] args) {
-        System.out.println(divide(10000, 3));
+        System.out.println(divide1(10000, 3));
     }
 }

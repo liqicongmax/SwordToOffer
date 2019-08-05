@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10543055-3536-441f-ae05-fac568893091" name="Default" comment="头条算法:难度:困难:两个升序数组找中位数">
+    <list default="true" id="10543055-3536-441f-ae05-fac568893091" name="Default" comment="leetcode29:难度:中等:两数相除">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/位运算/Divide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/位运算/Divide.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../tmall_ssm (1)/target/" />
@@ -37,10 +38,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/位运算/Divide.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+            <state relative-caret-position="494">
+              <caret line="58" column="5" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
               <folding>
-                <element signature="e#1117#1118#0" expanded="true" />
+                <element signature="e#1759#1760#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -280,7 +281,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565005685091" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565008150400" />
     <property name="last_opened_file_path" value="D:/garbage/garbage-classification-api" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -529,14 +530,7 @@
       <workItem from="1564444995629" duration="4937000" />
       <workItem from="1564465002293" duration="1000" />
       <workItem from="1564971200322" duration="3663000" />
-      <workItem from="1564983555338" duration="19306000" />
-    </task>
-    <task id="LOCAL-00004" summary="leetcode754简单 最小移动次数">
-      <created>1562824677339</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1562824677339</updated>
+      <workItem from="1564983555338" duration="20794000" />
     </task>
     <task id="LOCAL-00005" summary="动态规划,最大连续子序列的和">
       <created>1562985387205</created>
@@ -874,11 +868,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564993672114</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="leetcode29:难度:中等:两数相除">
+      <created>1565005933090</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1565005933090</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="394533000" />
+    <option name="totallyTimeSpent" value="396021000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -895,13 +896,13 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4749467" visible="true" weight="0.32827735" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.47654584" weight="0.3997833" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.47441363" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4760128" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5250533" side_tool="true" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.52558637" side_tool="true" visible="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4989339" weight="0.32936078" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4978678" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -924,7 +925,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="剑指offer:难度中等:非递归,二叉树的层序遍历并保存" />
     <MESSAGE value="剑指offer:难度中等:一个整形数组除了2个数出现一次,其他都出现两次,找到这两个出现一次的" />
     <MESSAGE value="剑指offer:难度简单:判断栈弹出顺序是否合理" />
     <MESSAGE value="剑指offer:难度简单:递增数组找两数和为sum的数对" />
@@ -949,7 +949,8 @@
     <MESSAGE value="剑指offer:难度:简单,链表反转" />
     <MESSAGE value="剑指offer:难度:中等,顺时针输出矩阵" />
     <MESSAGE value="头条算法:难度:困难:两个升序数组找中位数" />
-    <option name="LAST_COMMIT_MESSAGE" value="头条算法:难度:困难:两个升序数组找中位数" />
+    <MESSAGE value="leetcode29:难度:中等:两数相除" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode29:难度:中等:两数相除" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1018,6 +1019,14 @@
           </properties>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/位运算/Divide.java</url>
+          <line>36</line>
+          <properties class="位运算.Divide" method="divide1">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/数组/Niuke203658.java</url>
           <line>42</line>
@@ -1059,6 +1068,12 @@
           <line>32</line>
           <properties />
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/位运算/Divide.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1470,10 +1485,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/位运算/Divide.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+        <state relative-caret-position="494">
+          <caret line="58" column="5" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
           <folding>
-            <element signature="e#1117#1118#0" expanded="true" />
+            <element signature="e#1759#1760#0" expanded="true" />
           </folding>
         </state>
       </provider>
