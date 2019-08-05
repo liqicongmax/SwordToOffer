@@ -14,12 +14,12 @@ public class 两个有序数组找中位数 {
         int start=0;
         int end=m;
         int mid=(m+n+1)/2;
-        while (start<=end){
+        while(start<=end){
             int i=(start+end)/2;
             int j=mid-i;
             if(i>start&&arr1[i-1]>arr2[j]){
                 end=i-1;
-            }else if(i<end&&arr2[j-1]<arr1[i]){
+            }else if(i<end&&arr2[j-1]>arr1[i]){
                 start=i+1;
             }else{
                 int maxLeft=0;
@@ -38,7 +38,7 @@ public class 两个有序数组找中位数 {
                     minRight=arr2[j];
                 }else if(j==n){
                     minRight=arr1[i];
-                }else{
+                }else {
                     minRight=Math.min(arr1[i],arr2[j]);
                 }
                 if((m+n)%2==0){

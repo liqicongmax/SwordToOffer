@@ -22,14 +22,14 @@ public class TwoArrayMidNum {
         int start=0;
         int end=m;
         int mid=(m+n+1)/2;
-while (start<=end){
+        while(start<=end){
             int i=(start+end)/2;
             int j=mid-i;
             if(i>start&&arr1[i-1]>arr2[j]){
                 end=i-1;
-            }else if(i<end&&arr2[j-1]<arr1[i]){
+            } else if(i<end&&arr1[i]<arr2[j-1]){
                 start=i+1;
-            }else{
+            }else{//已经确定了两个ij的位置
                 int maxLeft=0;
                 if(i==0){
                     maxLeft=arr2[j-1];
@@ -46,13 +46,14 @@ while (start<=end){
                     minRight=arr2[j];
                 }else if(j==n){
                     minRight=arr1[i];
-                }else{
-                    minRight=Math.max(arr1[i],arr2[j]);
+                }else {
+                    minRight=Math.min(arr1[i],arr2[j]);
                 }
                 if((m+n)%2==0){
                     return (maxLeft+minRight)/2.0;
                 }
             }
+
         }
         return 0.0;
     }
