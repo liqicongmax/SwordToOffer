@@ -65,11 +65,55 @@ public class PrintMatrix {
         return list;
 
     }
+    public static ArrayList<Integer> printMatrix(int[][] matrix){
+        ArrayList<Integer> list=new ArrayList<>();
+        int row=matrix.length;
+        if(row==0){
+            return list;
+        }
+        int col=matrix[0].length;
+        int rowStart=0;
+        int rowEnd=row-1;
+        int colStart=0;
+        int colEnd=col-1;
+        while(rowStart<=rowEnd&&colStart<=colEnd){
+            if(rowStart==rowEnd){//如果是竖的单条
+                for(int i=colStart;i<=colEnd;i++) {
+                    list.add(matrix[rowStart][i]);
+                }
+                return list;
+            }
+            if(colStart==colEnd){
+                for(int i=rowStart;i<=rowEnd;i++){
+                    list.add(matrix[i][colStart]);
+                }
+                return list;
+            }
+            for(int i=colStart;i<=colEnd;i++){
+                list.add(matrix[rowStart][i]);
+            }
+            for(int i=rowStart+1;i<=rowEnd;i++){
+                list.add(matrix[i][colEnd]);
+            }
+            for(int i=colEnd-1;i>=colStart;i--){
+                list.add(matrix[rowEnd][i]);
+            }
+            for(int i=rowEnd-1;i>=rowStart+1;i--){
+                list.add(matrix[i][colStart]);
+            }
+            colEnd--;
+            rowEnd--;
+            colStart++;
+            rowStart++;
+        }
+        return list;
+    }
     public static void main(String[] args){
-        int[][] arr={{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
+//        int[][] arr={{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
+        int[][] arr={{1,2},{3,4}};
         System.out.println(solution(arr).size());
         System.out.println("____________");
-        for(Integer i:solution(arr)){
+        for(Integer i:printMatrix(arr)){
             System.out.println(i);
         }
     }
